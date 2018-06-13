@@ -17,8 +17,8 @@
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Oddmar/OddmarP.png" width="60%">
-<h2 class="header">Description</h2>-Jailbreak for iOS 9.2 - 9.3.3<div class="desc" style="display: none;">. <br />
--for iOS 9.2 - 9.3.3 64-bit devices only</div>
+<h2 class="header">Description</h2>-Oddmar struggles with life in his village and is not worthy of a place in Valhalla<div class="desc" style="display: none;">. <br />
+-</div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
 </p>
@@ -31,14 +31,6 @@
 <li>
 <div class="item-content">
 <div class="item-inner">
- <div class="item-title">Seller</div>
-<div class="item-after header">OddmarTeam</div>
-</div>
-</div>
-</li>
-<li>
-<div class="item-content">
-<div class="item-inner">
 <div class="item-title">Size</div>
 <div class="item-after header">22.2 MB</div>
 </div>
@@ -48,7 +40,15 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Categories</div>
-<div class="item-after header">Jailbreak</div>
+<div class="item-after header">Games</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-inner">
+<div class="item-title">Compatibility</div>
+<div class="item-after header">Requires iOS 11.0 or later.</div>
 </div>
 </div>
 </li>
@@ -56,7 +56,7 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">1.1</div>
+<div class="item-after header">1.0.3</div>
 </div>
 </div>
 </li>
