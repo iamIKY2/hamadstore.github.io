@@ -1,0 +1,1290 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>متجر حمد</title>
+<link rel="icon" href="Icon.png">
+<link rel="stylesheet" href="css/framework7.ios.min.css">
+<link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/appvalley.css">
+	
+<script type="text/javascript" src="js/framework7.min.js"></script>
+</head>
+<body id="body" onload="init();">
+<div class="statusbar-overlay"></div>
+<div class="views tabs navbar-through toolbar-through">
+<div id="tab-1" class="view view-main tab active">
+<div class="pages">
+<div data-page="index" class="page">
+<div class="page-content pull-to-refresh-content" data-ptr-distance="55">
+<div class="pull-to-refresh-layer">
+<div class="preloader"></div>
+</div>
+<div class="content-block">
+<h1 class="header" style="margin-top:0px; margin-bottom:0px;">اليوم</h1>
+<div style="margin-top: -58px; width:100%; text-align:right;">
+الوضع الليلي
+<form id="my-form" class="store-data">
+<label class="label-switch">
+<input type="checkbox" name="switch">
+<div class="checkbox" onclick="toggleTheme();"></div>
+</label>
+</form>
+</div>
+<center>
+<div class="hr"></div>
+<div class="content-block" style="max-width:414px; margin: 16px; margin-left: -16px;">
+<div class="app-card">
+<img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/AElectra.png" />
+<div class="list-block">
+<div class="item-content">
+<div class="item-media">
+<img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/AppIconElectra.png" />
+</div>
+<div class="item-inner">
+<div class="item-title">Electra Jailbreak</div>
+<div class="item-after">
+<a href="Pages/Electra.php" class="button button-fill button-round" style="background: #445466; color: #FFFFFF; font-weight:bold;">GET</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">متميز</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/TheMovieDB/TheMovieDB.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">The Movie DB</div>
+<div class="item-after">
+<a href="Pages/TheMovieDB.php" class="button button-fill button-round" style="background: #FFFFFF; color: #000000; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Crunchyroll/Crunchyroll.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Crunchyroll ++</div>
+<div class="item-after">
+<a href="Pages/Crunchyroll.php" class="button button-fill button-round" style="background: #F47521; color: #FFFFFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Anime</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Houdini/Houdini.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Houdini</div>
+<div class="item-after">
+<a href="Pages/Houdini.php" class="button button-fill button-round" style="background: #2498C4; color: #E2F8FF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/8f/a7/0f/8fa70f80-d1dc-ecce-4952-00b2329ceceb/Prod-1x_U007emarketing-85-220-0-5.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Instagram +</div>
+<div class="item-after">
+<a href="Pages/Instagram.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/HappyChick/HappyChick.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Happy Chick</div>
+<div class="item-after">
+<a href="Pages/HappyChick.php" class="button button-fill button-round" style="background: #03C7F8; color: #FFF200; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+</ul>
+</div>
+<br>
+</div>
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">Tweaked ++ Apps</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/8f/a7/0f/8fa70f80-d1dc-ecce-4952-00b2329ceceb/Prod-1x_U007emarketing-85-220-0-5.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Instagram ++</div>
+<div class="item-after">
+<a href="Pages/Instagram.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/26/fe/03/26fe03df-d057-c79f-6f87-a49d649e9132/ProductionAppIcon-1x_U007emarketing-0-0-85-220-0-6.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Twitter ++</div>
+<div class="item-after">
+<a href="Pages/Twitter.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/48/a0/5c/48a05c56-5f9b-8b85-9efc-e8f97f0fd854/AppIcon-1x_U007emarketing-0-85-220-0-3.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">WhatsApp ++</div>
+<div class="item-after">
+<a href="Pages/WhatsApp.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+ </div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/48/a0/5c/48a05c56-5f9b-8b85-9efc-e8f97f0fd854/AppIcon-1x_U007emarketing-0-85-220-0-3.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Watusi</div>
+<div class="item-after">
+<a href="Pages/Watusi.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/Hamadstore/HamadStore.github.io/master/Apps/YouTube/YouTube.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">YouTube ++</div>
+<div class="item-after">
+<a href="Pages/YouTube.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+	
+</ul>
+</div>
+<br>
+</div>
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">Emulators</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/HappyChick/HappyChick.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Happy Chick</div>
+<div class="item-after">
+<a href="Pages/HappyChick.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/NDS4iOS/NDS4iOS.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">NDS4iOS</div>
+<div class="item-after">
+<a href="Pages/NDS4iOS.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/GBA4iOS/GBA4iOS.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">GBA4iOS</div>
+<div class="item-after">
+<a href="Pages/GBA4iOS.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/PPSSPP/PPSSPP.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PPSSPP</div>
+<div class="item-after">
+<a href="Pages/PPSSPP.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Provenance/Provenance.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Provenance</div>
+<div class="item-after">
+<a href="Pages/Provenance.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+ </div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/Hamadstore/HamadStore.github.io/master/Apps/Delta/Delta.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Delta</div>
+<div class="item-after">
+<a href="Pages/Delta.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+	
+</ul>
+</div>
+<br>
+</div>
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">Jailbreak</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://github.com/HamadStore/HamadStore.github.io/blob/master/Apps/Electra/Electra.jpg?raw=true" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Electra</div>
+<div class="item-after">
+<a href="Pages/Electra.php" class="button button-fill button-round" style="background: #FFFFFF; color: #66798d; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Yalu102/Yalu102.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Yalu102</div>
+<div class="item-after">
+<a href="Pages/Yalu102.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Pangu/Pangu.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Pangu</div>
+<div class="item-after">
+<a href="Pages/Pangu.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+ </div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Houdini/Houdini.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Houdini</div>
+<div class="item-after">
+<a href="Pages/Houdini.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Noncereboot 11.3.1</div>
+<div class="item-after">
+<a href="Pages/noncereboot1131.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+
+</ul>
+</div>
+<br>
+</div>
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">Entertainment</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/TheMovieDB/TheMovieDB.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">The Movie DB</div>
+<div class="item-after">
+<a href="Pages/TheMovieDB.php" class="button button-fill button-round" style="background: #FFFFFF; color: #000000; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/BobbyMovie/BobbyMovie.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Bobby Movie</div>
+<div class="item-after">
+<a href="Pages/BobbyMovie.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Crunchyroll/Crunchyroll.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Crunchyroll ++</div>
+<div class="item-after">
+<a href="Pages/Crunchyroll.php" class="button button-fill button-round" style="background: #F47521; color: #FFFFFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Anime</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/PopcornTime/PopcornTime.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PopcornTime</div>
+<div class="item-after">
+<a href="Pages/PopcornTime.php" class="button button-fill button-round" style="background: #5767BE; color: #F5DFC4; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Infuse/Infuse.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Infuse Pro 5</div>
+<div class="item-after">
+<a href="Pages/Infuse.php" class="button button-fill button-round" style="background: #EAEAEA; color: #FA8D00; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies Sharing</div>
+</div>
+</div>
+
+</ul>
+</div>
+<br>
+</div>
+
+</div>
+<br>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="tab-2" class="view tab">
+<div class="pages navbar-through">
+<div data-page="index-2" class="page">
+<div class="page-content pull-to-refresh-content" data-ptr-distance="55">
+<div class="pull-to-refresh-layer">
+<div class="preloader"></div>
+</div>
+<div class="content-block">
+<div style="margin-top: -58px; width:100%; text-align:right;">
+</div>
+<center>
+<div class="content-block" style="max-width:414px; margin: 16px; margin-left: -16px;">
+<div class="app-card">
+<img class="app-icon" src="https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png" />
+<div class="list-block">
+<div class="item-content">
+<div class="item-media">
+<img class="app-icon" src="https://images-eu.ssl-images-amazon.com/images/I/512dVKB22QL.png" />
+</div>
+<div class="item-inner">
+<div class="item-title">Minecraft: Pocket Edition</div>
+<div class="item-after">
+<a href="Pages/Minecraft.php" class="button button-fill button-round" style="background: #894E27; color: #5FAA28; font-weight:bold;">GET</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">متميز</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Odyssey/Odyssey.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Alto's Odyssey</div>
+<div class="item-after">
+<a href="Pages/Odyssey.php" class="button button-fill button-round" style="background: #FFAFC8; color: #FFF3F5; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Discover the endless desert</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="http://is1.mzstatic.com/image/thumb/Purple128/v4/39/98/78/39987817-5d40-6d49-1303-6ee9442894ed/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Leo's Fortune</div>
+<div class="item-after">
+<a href="Pages/LeoFortune.php" class="button button-fill button-round" style="background: #F6F8D3; color: #369261; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">A gorgeous platform adventure</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Bike/Bike.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Bike Race Pro</div>
+<div class="item-after">
+<a href="Pages/Bike.php" class="button button-fill button-round" style="background: #FFB839; color: #000000; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Top Fun Driving Games</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/c1/85/14/c18514f6-2145-d690-aa1c-1b11e1214376/AppIcon-1x_U007emarketing-85-220-0-8.png/246x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PokeGo++</div>
+<div class="item-after">
+<a href="Pages/PokeGo.php" class="button button-fill button-round" style="background: #ECEEFA; color: #0410B0; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Discover Pokémon worldwide</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/14/81/de/1481ded7-f829-b402-88d5-ae0fdb3b280b/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Limbo</div>
+<div class="item-after">
+<a href="Pages/Limbo.php" class="button button-fill button-round" style="background: #707070; color: #000000; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">#11 in Puzzle</div>
+</div>
+</div>
+
+</ul>
+</div>
+<br>
+</div>
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">Games</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/4e/09/7c/4e097c1d-e009-2c7d-4d0c-20f2747a7ac5/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Bloons TD 5</div>
+<div class="item-after">
+<a href="Pages/BloonsTD5.php" class="button button-fill button-round" style="background: #70381F; color: #7CB321; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Top-Rated Tower Defense Game</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/HappyChick/HappyChick.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Happy Chick</div>
+<div class="item-after">
+<a href="Pages/HappyChick.php" class="button button-fill button-round" style="background: #03C7F8; color: #FFF200; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/fa/b1/06/fab1068e-80e2-e8e6-eb10-171795523944/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Alto's Adventure</div>
+<div class="item-after">
+<a href="Pages/Adventure.php" class="button button-fill button-round" style="background: #B8DBC3; color: #729D8A; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">A serene snowboarding odyssey</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/6f/7e/5e/6f7e5e58-c384-746c-7b6a-fd701ad4f80d/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Oddmar</div>
+<div class="item-after">
+<a href="Pages/Oddmar.php" class="button button-fill button-round" style="background: #D69D36; color: #632121; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Action-adventure Platformer</div>
+</div>
+</div>
+
+
+</ul>
+</div>
+<br>
+</div>
+
+</div>
+<br>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tab-3" class="view tab">
+<div class="pages navbar-through">
+<div data-page="index-3" class="page">
+<div class="page-content pull-to-refresh-content" data-ptr-distance="55">
+<div class="pull-to-refresh-layer">
+<div class="preloader"></div>
+</div>
+<div class="content-block">
+<div style="margin-top: -58px; width:100%; text-align:right;">
+</div>
+<center>
+<div class="content-block" style="max-width:414px; margin: 16px; margin-left: -16px;">
+<div class="app-card">
+<img class="app-icon" src="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/a8/d8/ee/a8d8eed5-e770-13ff-e283-69dff2cf78a7/source/512x512bb.jpg" />
+<div class="list-block">
+<div class="item-content">
+<div class="item-media">
+<img class="app-icon" src="https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/a8/d8/ee/a8d8eed5-e770-13ff-e283-69dff2cf78a7/source/512x512bb.jpg" />
+</div>
+<div class="item-inner">
+<div class="item-title">Tweetbot 4 for Twitter </div>
+<div class="item-after">
+<a href="Pages/Tweetbot.php" class="button button-fill button-round" style="background: #33A2F1; color: #FFD154; font-weight:bold;">GET</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">متميز</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="http://is5.mzstatic.com/image/thumb/Purple62/v4/21/2d/9c/212d9cf2-e446-49a8-5f56-abb1d4d74785/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Star Walk 2 - Night Sky Map </div>
+<div class="item-after">
+<a href="Pages/StarWalk2.php" class="button button-fill button-round" style="background: #1DA1E9; color: #BDF570; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle"></div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/83/df/68/83df6818-ce29-cfde-790c-1b81e240f8dc/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Cute CUT Pro</div>
+<div class="item-after">
+<a href="Pages/Cute.php" class="button button-fill button-round" style="background: #000000; color: #FFFFFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Full Featured Video Editor</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/f0/52/48/f05248ee-8431-f8c6-1802-dd11709040e0/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Pixelmator</div>
+<div class="item-after">
+<a href="Pages/Pixelmator.php" class="button button-fill button-round" style="background: #FFEFEF; color: #FF474F; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">#39 in Photo & Video</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/a2/4c/d0/a24cd0ab-3fac-9d95-9960-7eb8a6b3343a/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Launch Center Pro</div>
+<div class="item-after">
+<a href="Pages/LaunchCenterPro.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Shortcut and workflow launcher</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/76/39/4f/76394ffe-bfd6-79e9-c073-c68be6ed1f09/source/512x512bb.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Geekbench 4</div>
+<div class="item-after">
+<a href="Pages/Geekbench.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">#14 in Utilities</div>
+</div>
+</div>
+
+</ul>
+</div>
+<br>
+</div>
+<div class="app-card-2">
+<div class="content-block" style="margin-top:0px; margin-bottom:0px; padding-top:10px; padding-bottom:10px;">
+<h2 class="header" style="margin:0px;">Emulators</h2>
+</div>
+<div class="list-block media-list">
+<ul>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/HappyChick/HappyChick.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Happy Chick</div>
+<div class="item-after">
+<a href="Pages/HappyChick.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/GBA4iOS/GBA4iOS.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">GBA4iOS</div>
+<div class="item-after">
+<a href="Pages/GBA4iOS.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/PPSSPP/PPSSPP.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PPSSPP</div>
+<div class="item-after">
+<a href="Pages/PPSSPP.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+
+
+</ul>
+</div>
+<br>
+</div>
+
+</div>
+<br>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tab-4" class="view tab">
+<div class="pages">
+<div data-page="home" class="page">
+<div class="searchbar-overlay"></div>
+<div class="page-content pull-to-refresh-content" data-ptr-distance="55">
+<div class="pull-to-refresh-layer">
+<div class="preloader"></div>
+</div>
+<div class="content-block" style="margin-top:-24px;">
+<h1 class="header" style="margin-top:0px; margin-bottom:0px;">البحث</h1>
+<form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init" style="padding:0px;">
+<div class="searchbar-input">
+<input type="search" style="background-color:#e8e8ea;" placeholder="البحث"><a href="#" class="searchbar-clear"></a>
+</div>
+<a href="#" class="searchbar-cancel">إلغاء</a>
+</form>
+</div>
+<div class="content-block searchbar-not-found">
+<div class="content-block-inner">لم يتم العثور على شيء</div>
+</div>
+<div class="list-block media-list list-block-search searchbar-found">
+<ul>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Electra for iOS 11.0 - 11.3.1 soon</div>
+<div class="item-after">
+<a href="Pages/Electra3.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Yalu102/Yalu102.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Yalu102</div>
+<div class="item-after">
+<a href="Pages/Yalu102.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/8f/a7/0f/8fa70f80-d1dc-ecce-4952-00b2329ceceb/Prod-1x_U007emarketing-85-220-0-5.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Instagram ++</div>
+<div class="item-after">
+<a href="Pages/Instagram.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/26/fe/03/26fe03df-d057-c79f-6f87-a49d649e9132/ProductionAppIcon-1x_U007emarketing-0-0-85-220-0-6.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Twitter ++</div>
+<div class="item-after">
+<a href="Pages/Twitter.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/48/a0/5c/48a05c56-5f9b-8b85-9efc-e8f97f0fd854/AppIcon-1x_U007emarketing-0-85-220-0-3.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">WhatsApp Tweaked</div>
+<div class="item-after">
+<a href="Pages/WhatsAppT.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/48/a0/5c/48a05c56-5f9b-8b85-9efc-e8f97f0fd854/AppIcon-1x_U007emarketing-0-85-220-0-3.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">WhatsApp ++</div>
+<div class="item-after">
+<a href="Pages/WhatsApp.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://is5-ssl.mzstatic.com/image/thumb/Purple115/v4/48/a0/5c/48a05c56-5f9b-8b85-9efc-e8f97f0fd854/AppIcon-1x_U007emarketing-0-85-220-0-3.png/230x0w.jpg" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Watusi</div>
+<div class="item-after">
+<a href="Pages/Watusi.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/AppIconElectra.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Electra</div>
+<div class="item-after">
+<a href="Pages/Electra.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/PopcornTime/PopcornTime.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PopcornTime</div>
+<div class="item-after">
+<a href="Pages/PopcornTime.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies on iOS</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/BobbyMovie/BobbyMovie.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">BobbyMovie</div>
+<div class="item-after">
+<a href="Pages/BobbyMovie.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies on iOS</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/TheMovieDB/TheMovieDB.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">The Movie DB</div>
+<div class="item-after">
+<a href="Pages/TheMovieDB.php" class="button button-fill button-round" style="background: #FFFFFF; color: #000000; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Movies</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="Apps/Crunchyroll/Crunchyroll.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Crunchyroll ++</div>
+<div class="item-after">
+<a href="Pages/Crunchyroll.php" class="button button-fill button-round" style="background: #F47521; color: #FFFFFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Anime</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Infuse/Infuse.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Infuse Pro 5</div>
+<div class="item-after">
+<a href="Pages/Infuse.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Utilities</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Odyssey/Odyssey.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Alto's Odyssey</div>
+<div class="item-after">
+<a href="Pages/Odyssey.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Game</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Bike/Bike.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Bike Race Pro</div>
+<div class="item-after">
+<a href="Pages/Bike.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Game</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/BloonsTD5/BloonsTD5.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Bloons TD 5</div>
+<div class="item-after">
+<a href="Pages/BloonsTD5.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Game</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Limbo/Limbo.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">LIMBO</div>
+<div class="item-after">
+<a href="Pages/Limbo.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Game</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Cercube/Cercube.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Cercube 4</div>
+<div class="item-after">
+<a href="Pages/Cercube.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Tweaked</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Pangu/Pangu.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Pangu</div>
+<div class="item-after">
+<a href="Pages/Pangu.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Jailbreak</div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/HappyChick/HappyChick.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Happy Chick</div>
+<div class="item-after">
+<a href="Pages/HappyChick.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+</li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/GBA4iOS/GBA4iOS.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">GBA4iOS</div>
+<div class="item-after">
+<a href="Pages/GBA4iOS.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+</li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/Hamadstore/HamadStore.github.io/master/Apps/YouTube/YouTube.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">YouTube ++</div>
+<div class="item-after">
+<a href="Pages/YouTube.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+</li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/Hamadstore/HamadStore.github.io/master/Apps/Pixelmator/Pixelmator.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Pixelmator</div>
+<div class="item-after">
+<a href="Pages/Pixelmator.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Social Media</div>
+</div>
+</div>
+</li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/PPSSPP/PPSSPP.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">PPSSPP</div>
+<div class="item-after">
+<a href="Pages/PPSSPP.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+</li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Delta/Delta.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Delta</div>
+<div class="item-after">
+<a href="Pages/Delta.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+</li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Provenance/Provenance.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Provenance</div>
+<div class="item-after">
+<a href="Pages/Provenance.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Emulators</div>
+</div>
+</div>
+</li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Geekbench/Geekbench.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Geekbench 4</div>
+<div class="item-after">
+<a href="Pages/Geekbench.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Utilities </div>
+</div>
+</div>
+</li>
+<li>
+<div class="item-content">
+<div class="item-media"><img class="app-icon" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Hotspot/Hotspot.png" /></div>
+<div class="item-inner">
+<div class="item-title-row">
+<div class="item-title">Hotspot Shield ++</div>
+<div class="item-after">
+<a href="Pages/Hotspot.php" class="button button-fill button-round" style="background: #F0F1F6; color: #007AFF; font-weight:bold;">GET</a>
+</div>
+</div>
+<div class="item-subtitle">Tweaked</div>
+</div>
+</div>
+</li>
+<li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="toolbar tabbar tabbar-labels">
+<div class="toolbar-inner">
+<a href="#tab-1" class="tab-link active">
+<i class="icon icon-today"></i>
+<span class="tabbar-label">اليوم</span>
+</a>
+<a href="#tab-2" class="tab-link">
+<i class="icon icon-games"></i>
+<span class="tabbar-label">الالعاب</span>
+</a>
+<a href="#tab-3" class="tab-link">
+<i class="icon icon-apps"></i>
+<span class="tabbar-label">البرامج</span>
+</a>
+<a href="#tab-4" class="tab-link">
+<i class="icon icon-search"></i>
+<span class="tabbar-label">البحث</span>
+</a>
+
+</div>
+</div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/inobounce/0.1.5/inobounce.min.js"></script>
+<script type="text/javascript" src="js/appvalley.js"></script>
+</body>
+</html>
