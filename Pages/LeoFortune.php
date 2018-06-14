@@ -6,7 +6,7 @@
 <br><br>
 <div class="row">
 <div class="col-40">
-<img width="100%" style="border-radius:25%;" src="http://is1.mzstatic.com/image/thumb/Purple128/v4/39/98/78/39987817-5d40-6d49-1303-6ee9442894ed/source/512x512bb.jpg">
+<img width="100%" style="border-radius:25%;" src="https://bitbucket.org/Nami1/nami/raw/f6c0387f45a2b96324c3d2cc8b80ba12e0048a0e/512x512bb-8.jpg">
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Leo's Fortune</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">1337 & Senri LLC</small></div></h2>
