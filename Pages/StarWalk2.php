@@ -1,4 +1,4 @@
-<div class="page" data-name="install" data-id="110" data-app-name="Launcher">
+<div class="page" data-name="install" data-id="110" data-app-name="StarWalk2">
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
@@ -6,17 +6,17 @@
 <br><br>
 <div class="row">
 <div class="col-40">
-<img width="100%" style="border-radius:25%;" src="https://bitbucket.org/Nami1/nami/raw/f6c0387f45a2b96324c3d2cc8b80ba12e0048a0e/512x512bb-7.jpg">
+<img width="100%" style="border-radius:25%;" src="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/7e/0a/df/7e0adf19-9709-c817-1a15-129a8a1c912c/source/512x512bb.jpg">
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Star Walk 2 - Night Sky Map</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">Vito Technology Inc.</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://appvalley.vip/app/plists/89/install.plist" class="col button button-fill button-round external install"  data-id="110" data-app-name="Launcher" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">GET</a>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/StarWalk2/StarWalk2.plist" class="col button button-fill button-round external install"  data-id="110" data-app-name="StarWalk2" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
-<img style="border-radius:9px; max-width:414px;" src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/26/fe/a1/26fea1b2-06d4-96f9-6af7-5bce3e4626ec/pr_source.png/314x0w.jpg" width="60%">
+<img style="border-radius:9px; max-width:414px;" src="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/bd/5b/2b/bd5b2b7a-3a10-77fe-d9e2-5cfc688f83ff/pr_source.png/314x0w.jpg" width="60%">
 <img style="border-radius:9px; max-width:414px;" src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/26/fe/a1/26fea1b2-06d4-96f9-6af7-5bce3e4626ec/pr_source.png/314x0w.jpg" width="60%">
 <h2 class="header">Description</h2>-Sky map watching day and night‫.‬<div class="desc" style="display: none;"></div>
 <p>
