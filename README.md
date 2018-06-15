@@ -1,1 +1,1 @@
-# HamadStore.github.io
+# HMD Store
