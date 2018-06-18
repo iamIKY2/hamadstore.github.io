@@ -9,7 +9,7 @@
 <img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/TheMovieDB/TheMovieDB.png">
 </div>
 <div class="col-60">
-<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">The Movie DB</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">Tri Nguyen</small></div></h2
+<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">The Movie DB</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">Tri Nguyen</small></div></h2>
 <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Hamadstore/HamadStore.github.io/master/Apps/TheMovieDB/TheMovieDB.plist" class="col button button-fill button-round external install"  data-id="802" data-app-name="The Movie DB" style="background: #FFFFFF; color: #000000; font-weight:bold; width: 72px;">GET</a>
 </div>
 </div>
