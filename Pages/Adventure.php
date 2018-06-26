@@ -1,13 +1,5 @@
 
-<head>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-1695628203939616",
-          enable_page_level_ads: true
-     });
-</script>
-</head>
+
 
 <div class="page" data-name="install" data-id="188" data-app-name="Alto's Adventure">
 <div class="page-content">
