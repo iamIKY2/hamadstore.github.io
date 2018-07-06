@@ -18,7 +18,6 @@
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131P.png" width="60%">
 <h2 class="header">Description</h2>-Jailbreak for iOS 11.2 - 11.3.1<div class="desc" style="display: none;">. <br />
--Support for iOS 11.2 to 11.3.1 (thanks to Ian Beer). </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
 </p>
