@@ -1,4 +1,4 @@
-<div class="page" data-name="install" data-id="1313" data-app-name="Electra1131”>
+<div class="page" data-name="install" data-id="1131” data-app-name="Electra1131”>
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
