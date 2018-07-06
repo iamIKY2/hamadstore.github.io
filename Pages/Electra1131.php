@@ -6,7 +6,7 @@
 <br><br>
 <div class="row">
 <div class="col-40">
-<img width="100%" style="border-radius:25%;" src="">
+<img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131.png">
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Electra 11.2 - 11.3.1</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">CoolStar</small></div></h2>
