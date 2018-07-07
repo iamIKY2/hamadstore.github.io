@@ -39,7 +39,7 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
-<div class="item-after header">20 MB</div>
+<div class="item-after header">20.3 MB</div>
 </div>
 </div>
 </li>
@@ -55,7 +55,7 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">1.0</div>
+<div class="item-after header">1.0.1</div>
 </div>
 </div>
 </li>
