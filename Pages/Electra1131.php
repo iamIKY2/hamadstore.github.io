@@ -10,7 +10,7 @@
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Electra 11.2 - 11.3.1</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">CoolStar</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131.plist" class="col button button-fill button-round external install"  data-id="1131” data-app-name="Electra1131” style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">Install</a>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131.plist" class="col button button-fill button-round external install"  data-id="1131” data-app-name="Electra1131” style="background: #445466; color: #FFFFFF; font-weight:bold; width: 72px;">Install</a>
 </div>
 </div>
 </div>
@@ -19,11 +19,11 @@
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131P.png" width="60%">
 <h2 class="header">Description</h2>Changelogs:<br />
 -1.0.2:Use different bundle identifier for mptcp version<div class="desc" style="display: none;"><br />
--1.0.2:Increment bundle id properly<br />
--1.0.2:Hopefully fix success rate regression with multipath 1.0.1<br />
--1.0.1:Fix app icon not showing up for certain users<br />
--1.0.1:Fix nonce Generator not being set certain times<br />
--1.0:Initial Release!</div>
+-1.0.2 : Increment bundle id properly<br />
+-1.0.2 : Hopefully fix success rate regression with multipath<br />
+-1.0.1 : Fix app icon not showing up for certain users<br />
+-1.0.1 : Fix nonce Generator not being set certain times<br />
+-1.0 : Initial Release!</div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
 </p>
