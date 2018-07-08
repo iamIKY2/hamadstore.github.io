@@ -17,24 +17,22 @@
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131P.png" width="60%">
-<h2 class="header">Description</h2>-Jailbreak for iOS 11.2 - 11.3.1<div class="desc" style="display: none;">. <br />
+<h2 class="header">Description</h2>Changelogs:<br />
+-1.0.2:Use different bundle identifier for mptcp version<div class="desc" style="display: none;"><br />
+-1.0.2:Increment bundle id properly<br />
+-1.0.2:Hopefully fix success rate regression with multipath 1.0.1<br />
+-1.0.1:Fix app icon not showing up for certain users<br />
+-1.0.1:Fix nonce Generator not being set certain times<br />
+-1.0:Initial Release!</div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
 </p>
 <br>
 <div id="ad_container"></div>
 <br>
-<h2 class="header">معلومات التطبيق</h2>
+<h2 class="header">Information</h2>
 <div class="list-block inset" style="margin:0px;">
 <ul>
-<li>
-<div class="item-content">
-<div class="item-inner">
- <div class="item-title">Seller</div>
-<div class="item-after header">CoolStar</div>
-</div>
-</div>
-</li>
 <li>
 <div class="item-content">
 <div class="item-inner">
@@ -55,7 +53,7 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">1.0.1</div>
+<div class="item-after header">1.0.2</div>
 </div>
 </div>
 </li>
