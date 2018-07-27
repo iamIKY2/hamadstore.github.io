@@ -9,7 +9,7 @@
 <img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131.png">
 </div>
 <div class="col-60">
-<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Electra 11.2 - 11.3.1</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">CoolStar</small></div></h2>
+<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Electra (Dev Account)</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">CoolStar</small></div></h2>
 <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra1131.plist" class="col button button-fill button-round external install"  data-id="1131” data-app-name="Electra1131” style="background: #445466; color: #FFFFFF; font-weight:bold; width: 72px;">Install</a>
 </div>
 </div>
@@ -53,7 +53,7 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">1.0.2</div>
+<div class="item-after header">1.0.3</div>
 </div>
 </div>
 </li>
