@@ -1,4 +1,4 @@
-<div class="page" data-name="install" data-id="1313" data-app-name="noncereboot1131">
+<div class="page" data-name="install" data-id="1033" data-app-name="H3lix">
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
@@ -9,16 +9,16 @@
 <img width="100%" style="border-radius:25%;" src="">
 </div>
 <div class="col-60">
-<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;"> noncereboot1131 </div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">by Pwn20wnd</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/noncereboot1131/noncereboot1131.plist" class="col button button-fill button-round external install"  data-id="1313" data-app-name="noncereboot1131" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">تثبيت</a>
+<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;"> H3lix </div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">tihmstar</small></div></h2>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/H3lix/H3lix.plist" class="col button button-fill button-round external install"  data-id="1033" data-app-name="H3lix" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">Install</a>
 </div>
 </div>
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
-<img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/noncereboot1131/noncereboot1131P.png" width="60%">
-<h2 class="header">Description</h2>-nonce setter for iOS 11.0 - 11.3.1<div class="desc" style="display: none;">. <br />
--Support for iOS 11.0 to 11.3.1 (thanks to Ian Beer). </div>
+<img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/H3lix/H3lixP.png" width="60%">
+<h2 class="header">Description</h2>-Jailbreak for 64-bit 10.x devices.<div class="desc" style="display: none;">. <br />
+-Only 64-bit devices with headphone jack supported. (A7-A9) </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
 </p>
@@ -32,7 +32,7 @@
 <div class="item-content">
 <div class="item-inner">
  <div class="item-title">Seller</div>
-<div class="item-after header">by Pwn20wnd</div>
+<div class="item-after header">tihmstar</div>
 </div>
 </div>
 </li>
@@ -40,7 +40,7 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
-<div class="item-after header">56 KB</div>
+<div class="item-after header">6.2 MB</div>
 </div>
 </div>
 </li>
@@ -56,7 +56,7 @@
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">beta 3</div>
+<div class="item-after header">RC 8</div>
 </div>
 </div>
 </li>
