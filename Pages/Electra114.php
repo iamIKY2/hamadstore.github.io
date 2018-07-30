@@ -10,7 +10,7 @@
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Electra (Non Dev Account)</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">CoolStar</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra114VFS.plist" class="col button button-fill button-round external install"  data-id="1131” data-app-name="Electra1131” style="background: #445466; color: #FFFFFF; font-weight:bold; width: 72px;">Install</a>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra1131/Electra114VFS.plist" class="col button button-fill button-round external install"  data-id="114” data-app-name="Electra114” style="background: #445466; color: #FFFFFF; font-weight:bold; width: 72px;">Install</a>
 </div>
 </div>
 </div>
