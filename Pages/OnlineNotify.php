@@ -19,8 +19,8 @@
 <img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Watusi/Watusi.png">
 </div>
 <div class="col-60">
-<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Watusi</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">@FouadRaheb</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Watusi/Watusi.plist" class="col button button-fill button-round external install"  data-id="48" data-app-name="Watusi" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">تثبيت</a>
+<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">WhatsApp OnlineNotify</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">@FouadRaheb</small></div></h2>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/OnlineNotify/OnlineNotify.plist" class="col button button-fill button-round external install"  data-id="48" data-app-name="Watusi" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
 </div>
