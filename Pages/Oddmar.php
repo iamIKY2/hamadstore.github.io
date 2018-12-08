@@ -6,7 +6,7 @@
 <br><br>
 <div class="row">
 <div class="col-40">
-<img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Oddmar/Oddmar.png">
+<img width="100%" style="border-radius:25%;" src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/6f/7e/5e/6f7e5e58-c384-746c-7b6a-fd701ad4f80d/source/512x512bb.jpg">
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Oddmar</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">Mobge Ltd</small></div></h2>
