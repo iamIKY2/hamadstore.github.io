@@ -91,7 +91,7 @@ sandbox mitigations by stek29 and coolstar</div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Categories</div>
-<div class="item-after header">Tweaked Apps, Jailbreak</div>
+<div class="item-after header">Jailbreak</div>
 </div>
 </div>
 </li>
@@ -99,7 +99,7 @@ sandbox mitigations by stek29 and coolstar</div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">1.0.4</div>
+<div class="item-after header">1.1.0-2</div>
 </div>
 </div>
 </li>
