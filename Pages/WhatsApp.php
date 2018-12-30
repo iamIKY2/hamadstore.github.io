@@ -16,10 +16,10 @@
 <br><br>
 <div class="row">
 <div class="col-40">
-<img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Watusi/Watusi.png">
+<img width="100%" style="border-radius:25%;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/87/35/99/873599d8-57e4-3dac-2c93-58456a58bf59/AppIcon-1x_U007emarketing-85-220-3.png/230x0w.jpg">
 </div>
 <div class="col-60">
-<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">WhatsApp ++</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">UnlimApps Inc.</small></div></h2>
+<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">WhatsApp Watusi</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">UnlimApps Inc.</small></div></h2>
 <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/WhatsApp/WhatsApp.plist" class="col button button-fill button-round external install"  data-id="4482" data-app-name="WhatsApp" style="background: #16C333; color: #FFFFFF; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
@@ -111,7 +111,7 @@ Hide badges of muted chats or groups</div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">بحجم</div>
-<div class="item-after header">70.8 MB</div>
+<div class="item-after header">55.1 MB</div>
 </div>
 </div>
 </li>
@@ -127,7 +127,7 @@ Hide badges of muted chats or groups</div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">اصدار</div>
-<div class="item-after header">2.18.52.9</div>
+<div class="item-after header">2.18.111</div>
 </div>
 </div>
 </li>
