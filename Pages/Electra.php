@@ -18,12 +18,16 @@
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://pics.cydiageeks.com/wp-content/uploads/2018/01/electra-jailbreak-app.png" width="60%">
 <h2 class="header">Description</h2>Electra is a free jailbreak tool for iOS 11.0 - 11.3.1.<br />
+<br />
 1.2.7:<br />
+<br />
 Fix a bug in v1ntex that resulted a kernel panic later in Step 2<br />
 Actually test on an A7 device on 11.4 (thanks PastRestore on discord)<br />
 1.2.6:<br />
+<br />
 Fix offsetfinder path issue for A7 & A8 devices on 11.4-11.4.1<br />
 1.2.5:<br />
+<br />
 Fix sandbox issues causing app crash on A7 & A8 devices on 11.4-11.4.1<br />
 Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
 Fix APT 0.7 Strict (lib) on devices that may have already updated to the broken copy from saurik's repo<br />
