@@ -17,7 +17,7 @@
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/d6/7a/3f/d67a3fd1-b3ff-bbc2-a53e-3c82468bd38b/mzl.fzbrmtbb.png/643x0w.jpg" width="60%">
-<h2 class="header">Description</h2>Electra is a free jailbreak tool for iOS 11.0 - 11.4.1.<br />
+<h2 <div class="desc" style="display: none;"> class="header">Description</h2>Electra is a free jailbreak tool for iOS 11.0 - 11.4.1.<br />
 <br />
 Changelogs:<br />
 <br />
