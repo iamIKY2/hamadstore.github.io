@@ -54,7 +54,7 @@ Fix initial ldrestart not working on some devices</div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
-<div class="item-after header">19.4 MB</div>
+<div class="item-after header">23.6 MB</div>
 </div>
 </div>
 </li>
