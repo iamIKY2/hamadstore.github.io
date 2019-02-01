@@ -39,6 +39,7 @@ Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
 Fix initial ldrestart not working on some devices</div>
 
 <br>
+
 <div id="ad_container"></div>
 <br>
 <h2 class="header">معلومات التطبيق</h2>
@@ -57,16 +58,12 @@ Fix initial ldrestart not working on some devices</div>
 <div class="item-after header">23.6 MB</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Categories</div>
 <div class="item-after header">Jailbreak</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
@@ -84,12 +81,7 @@ Fix initial ldrestart not working on some devices</div>
 </div>
 </div>
 <div class="item-content"></div>
-<br /></div>
-</li>
-<br /></div>
-</ul>
-</div>
-</div>
+<div class="item-title">Report App</div>
 </center>
 </div>
 </div>
