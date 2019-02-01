@@ -33,29 +33,10 @@ Fix offsetfinder path issue for A7 & A8 devices on 11.4 - 11.4.1<br />
 Fix sandbox issues causing app crash on A7 & A8 devices on 11.4 - 11.4.1<br />
 Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
 <br />
-***Compatible with all iPhone, iPod touch, Appsd and Appsd mini models running iOS 11.0-11.1.2 ***<br />
-Important معلومات التطبيق<br />
+1.2.3:<br />
 <br />
-An APFS snapshot is created of / so you may revert it at a later date if needed<br />
-It is recommended to futurerestore if you have blobs before running Electra to ensure the best possible installation<br />
-Cydia is included<br />
-OpenSSH is running on port 22<br />
-Electra repo added by default<br />
-Substitute, Tweak Loader and Substrate Compatibility Layer available from Electra repo<br />
-Many packages need to be updated for both Electra and iOS 11 (make sure they're updated before installing as they may not work yet)<br />
-RocketBootstrap 1.0.6 or higher is required for use on iOS 11<br />
-Many apps, launch daemons and installation binaries are broken as they require entitlements to be added.<br />
-<br />
-Credits<br />
-<br />
-Packaged by CoolStar<br />
-Exploit by Ian Beer<br />
-Trust cache injection and rootfs patch by xerub<br />
-Zone map address fixup by Siguza<br />
-jailbreakd, launchd patch, setuid patch, dylib injection and Safe Mode by CoolStar<br />
-amfid patch and entitlement injection by theninjaprawn<br />
-unlocknvram, initial dropbear work, substitute compilation fix by stek29<br />
-sandbox mitigations by stek29 and coolstar</div>
+Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
+Fix initial ldrestart not working on some devices</div>
 
 <br>
 <div id="ad_container"></div>
