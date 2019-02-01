@@ -39,7 +39,9 @@ Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
 Fix initial ldrestart not working on some devices</div>
 
 <br>
-
+<p>
+<a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
+</p>
 <div id="ad_container"></div>
 <br>
 <h2 class="header">معلومات التطبيق</h2>
