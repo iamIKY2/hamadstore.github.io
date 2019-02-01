@@ -1,14 +1,4 @@
-
-<head>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-1695628203939616",
-          enable_page_level_ads: true
-     });
-</script>
-</head>
-<div class="page" data-name="install" data-id="466" data-app-name="Electra">
+<div class="page" data-name="install" data-id="1141" data-app-name="Electra">
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
@@ -27,8 +17,8 @@
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://pics.cydiageeks.com/wp-content/uploads/2018/01/electra-jailbreak-app.png" width="60%">
-<h2 class="header">Description</h2>1.0.4:<br />
-Remove all XPC code th<div class="desc" style="display: none;">at could possibly have been problematic ever since beta 11<br />
+<h2 class="header">Description</h2>1.2.7:<br />
+Fix a bug in v1ntex that could possibly have been problematic ever since beta 11<br />
 Replace TCP, UDP and XPC with MIG (thanks Psychotea from the Meridian team)<br />
 Recommended to also update Tweak Injector to 1.0.4 from our repo to get safe mode in system daemons as well<br />
 1.0.3:<br />
@@ -99,7 +89,7 @@ sandbox mitigations by stek29 and coolstar</div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">1.1.0-2</div>
+<div class="item-after header">1.2.7</div>
 </div>
 </div>
 </li>
