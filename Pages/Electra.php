@@ -51,8 +51,6 @@ Fix initial ldrestart not working on some devices</div>
 <div class="item-after header">CoolStar</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
