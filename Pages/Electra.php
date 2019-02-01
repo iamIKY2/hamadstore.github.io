@@ -52,9 +52,7 @@ jailbreakd, launchd patch, setuid patch, dylib injection and Safe Mode by CoolSt
 amfid patch and entitlement injection by theninjaprawn<br />
 unlocknvram, initial dropbear work, substitute compilation fix by stek29<br />
 sandbox mitigations by stek29 and coolstar</div>
-<p>
-<a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
-</p>
+
 <br>
 <div id="ad_container"></div>
 <br>
