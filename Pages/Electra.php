@@ -83,8 +83,9 @@ Fix initial ldrestart not working on some devices</div>
 </div>
 </div>
 </div>
+<br /></div>
 </li>
-<p>This is a paragraph.</p>
+<br /></div>
 </ul>
 </div>
 </div>
