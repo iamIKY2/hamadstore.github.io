@@ -16,7 +16,7 @@
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
-<img style="border-radius:9px; max-width:414px;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/d6/7a/3f/d67a3fd1-b3ff-bbc2-a53e-3c82468bd38b/mzl.fzbrmtbb.png/643x0w.jpg" width="60%">
+<img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/PElectra.png" width="60%">
 <h2 class="header">Description</h2>Electra is a free jailbreak tool for iOS 11.0 - 11.4.1.<div class="desc" style="display: none;"><br />
 <br />
 Changelogs:<br />
@@ -86,16 +86,11 @@ Fix initial ldrestart not working on some devices
 <div class="item-after header">1.2.7</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Report App</div>
 <div class="item-after header"><a class="email" title="email" href="#" onclick="javascript:window.location='mailto:7amad.rak@gmail.com?subject=App Not Working&body=This app is not working: ' + document.getElementById('#appName').innerHTML;"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVEhL7VJNKERRFH6xICsLKXsbC+Tdp4RIWYosZq0oysrCzsLKxkYW5t5nYzWpScpGFihSVhZTGt65T5MFSooSkZ/xnTuMmfdG0wxLt77eO98557vnnHus/5M9kXi6UkhvwpE6BsR/A6Fo2XF1pxEWUi84Sqf/CkLSq5B+l4Wbrh1Fb4WCysQToCxjSDqC+E6Os3RIesAo1oErFBvLCBtQAm2M4f/wmysOofQL8lzkT8G+N3y+MBN0i5kPtUt/GM6TPF8Qkt65Qlv5zaF3CgkbEgmS5hoXqcpR/jiCLoMxENqzo9Rhq2QD7P2gv7BwFrRlzaYrhHtRA6GZTDd0DMEB3qa2Ja/JzLNQ7k/CvDJocYRF25XXw0KtK6lavog7sZXuM/uv9Fqh/B9H4URpFMk27CRzqGy1JerXC/es+4vjZOGe1sG3YexchIRZVNIkHNPAc8B3F9x3VJzi6tHhZi4fEsYs5xG0ncsVA4+N83DxbpbPF6YDVHDzbZcKSkD83PxnhEmbEYQCSwdX//mds5yoHsQDPAaDygVEPX5o3iSLFx1zGhKujvwGjuv1966kqo3o/8kcy/oAk4ZYv9esbNMAAAAASUVORK5CYII="></a></div>
 </div>
-</div>
-</li>
-</ul>
 </div>
 </div>
 </center>
