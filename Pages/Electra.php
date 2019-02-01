@@ -32,7 +32,6 @@ Fix offsetfinder path issue for A7 & A8 devices on 11.4 - 11.4.1<br />
 <br />
 Fix sandbox issues causing app crash on A7 & A8 devices on 11.4 - 11.4.1<br />
 Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
-Fix APT 0.7 Strict (lib) on devices that may have already updated to the broken copy from saurik's repo<br />
 <br />
 ***Compatible with all iPhone, iPod touch, Appsd and Appsd mini models running iOS 11.0-11.1.2 ***<br />
 Important معلومات التطبيق<br />
