@@ -54,32 +54,24 @@ Fix initial ldrestart not working on some devices
 <div class="item-after header">Electra Team</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
 <div class="item-after header">23.6 MB</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Categories</div>
 <div class="item-after header">Jailbreak</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Compatibility</div>
 <div class="item-after header">Requires iOS 11.0 - 11.4.1</div>
 </div>
 </div>
-</li>
-<li>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
