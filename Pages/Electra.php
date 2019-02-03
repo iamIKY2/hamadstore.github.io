@@ -23,31 +23,31 @@ Changelogs:<br />
 <br />
 1.3.0:<br />
 <br />
-No longer require platformization to control launchd (requires tweaks switch enabled)<br />
+- No longer require platformization to control launchd (requires tweaks switch enabled)<br />
 <br />
-Replace jailbreakd with jailbreakd2<br />
-jailbreakd2: Fix freezing in low memory conditions<br />
-jailbreakd2: Faster ldrestarts, resprings<br />
-jailbreakd2: XCode debugging success rate improved<br />
+- Replace jailbreakd with jailbreakd2<br />
+- jailbreakd2: Fix freezing in low memory conditions<br />
+- jailbreakd2: Faster ldrestarts, resprings<br />
+- jailbreakd2: XCode debugging success rate improved<br />
 <br />
 1.2.7:<br />
 <br />
-Fix a bug in v1ntex that resulted a kernel panic later in Step 2<br />
-Actually test on an A7 device on 11.4 (thanks PastRestore on discord)<br />
+- Fix a bug in v1ntex that resulted a kernel panic later in Step 2<br />
+- Actually test on an A7 device on 11.4 (thanks PastRestore on discord)<br />
 <br />
 1.2.6:<br />
 <br />
-Fix offsetfinder path issue for A7 & A8 devices on 11.4 - 11.4.1<br />
+- Fix offsetfinder path issue for A7 & A8 devices on 11.4 - 11.4.1<br />
 <br />
 1.2.5:<br />
 <br />
-Fix sandbox issues causing app crash on A7 & A8 devices on 11.4 - 11.4.1<br />
-Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
+- Fix sandbox issues causing app crash on A7 & A8 devices on 11.4 - 11.4.1<br />
+- Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
 <br />
 1.2.3:<br />
 <br />
-Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
-Fix initial ldrestart not working on some devices
+- Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
+- Fix initial ldrestart not working on some devices
 </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>

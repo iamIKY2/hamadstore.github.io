@@ -1,4 +1,4 @@
-<div class="page" data-name="install" data-id="466" data-app-name="RootlessJB">
+<div class="page" data-name="install" data-id="121" data-app-name="RootlessJB">
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
@@ -10,14 +10,24 @@
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">RootlessJB</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">RootlessJBTeam</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/RootlessJB/RootlessJB.plist" class="col button button-fill button-round external install"  data-id="466" data-app-name="RootlessJB Jailbreak" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">تثبيت</a>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/RootlessJB/RootlessJB.plist" class="col button button-fill button-round external install"  data-id="121" data-app-name="RootlessJB Jailbreak" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/RootlessJB/RootlessJBP.png" width="60%">
-<h2 class="header">Description</h2>Rootless JB<div class="desc" style="display: none;">iOS 12.0 - 12.1.2 <br /></div>
+<h2 class="header">Description</h2>RootlessJB is a free to access /var tool for iOS 11.2 - 12.1.2.<div class="desc" style="display: none;"><br />
+<br />
+Changelogs:<br />
+<br />
+3.0:<br />
+<br />
+- Add initial support for iOS 12.<br />
+- Now for now works on A9-A11<br />
+- No tweaks or code injection yet<br />
+- Spawns SSH via dropbear
+</div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
 </p>
