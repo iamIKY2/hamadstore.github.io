@@ -17,13 +17,13 @@
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/Electra.jpg</string>
+					<string>https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/Electra.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/Electra.jpg</string>
+					<string>https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Electra/Electra.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -31,7 +31,7 @@
 				<key>bundle-identifier</key>
 				<string>com.hamad.electra</string>
 				<key>bundle-version</key>
-				<string>1.2.7</string>
+				<string>1.3.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
