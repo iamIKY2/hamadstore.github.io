@@ -10,20 +10,20 @@
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Badges</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">BadgesTeam</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Badges/Badges.plist" class="col button button-fill button-round external install"  data-id="121" data-app-name="Badges" style="background: #007AFF; color: #F0F1F6; font-weight:bold; width: 72px;">تثبيت</a>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Badges/Badges.plist" class="col button button-fill button-round external install"  data-id="121" data-app-name="Badges" style="background: #DD0707; color: #272285; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Badges/BadgesP.png" width="60%">
-<h2 class="header">Description</h2>Badges is a tool to change color of Badges For iOS 11.2 - 12.1.2.<div class="desc" style="display: none;"><br />
+<h2 class="header">Description</h2>Badges is a tool to change color of Badge For iOS 12.0 - 12.1.2.<div class="desc" style="display: none;"><br />
 <br />
 Changelogs:<br />
 <br />
 3.0:<br />
 <br />
-- Now for now works on A9-A11
+- Now works on A9-A11
 </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
@@ -46,7 +46,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
-<div class="item-after header">6.9 MB</div>
+<div class="item-after header">140 KB</div>
 </div>
 </div>
 </li>
