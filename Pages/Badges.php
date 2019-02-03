@@ -10,7 +10,7 @@
 </div>
 <div class="col-60">
 <h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Badges</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">BadgesTeam</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Badges/Badges.plist" class="col button button-fill button-round external install"  data-id="121" data-app-name="Badges" style="background: #DD0707; color: #272285; font-weight:bold; width: 72px;">تثبيت</a>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Badges/Badges.plist" class="col button button-fill button-round external install"  data-id="121" data-app-name="Badges" style="background: #272285; color: #FFFFFF; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
 </div>
