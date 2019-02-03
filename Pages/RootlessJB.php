@@ -17,7 +17,7 @@
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/RootlessJB/RootlessJBP.png" width="60%">
-<h2 class="header">Description</h2>RootlessJB is a free to access /var tool for iOS 11.2 - 12.1.2.<div class="desc" style="display: none;"><br />
+<h2 class="header">Description</h2>RootlessJB is a free tool to access /var for iOS 11.2 - 12.1.2.<div class="desc" style="display: none;"><br />
 <br />
 Changelogs:<br />
 <br />
