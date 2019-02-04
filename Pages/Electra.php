@@ -86,7 +86,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">1.2.7</div>
+<div class="item-after header">1.3.0</div>
 </div>
 </div>
 <div class="item-content">
