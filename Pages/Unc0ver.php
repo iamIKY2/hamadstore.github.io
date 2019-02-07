@@ -1,4 +1,4 @@
-<div class="page" data-name="install" data-id="612" data-app-name="unc0ver">
+<div class="page" data-name="install" data-id="612" data-app-name="Unc0ver">
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
@@ -6,18 +6,18 @@
 <br><br>
 <div class="row">
 <div class="col-40">
-<img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/unc0ver/unc0ver.png">
+<img width="100%" style="border-radius:25%;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Unc0ver/Unc0ver.png">
 </div>
 <div class="col-60">
-<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">unc0ver</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">unc0ver Team</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/unc0ver/unc0ver.plist" class="col button button-fill button-round external install"  data-id="612" data-app-name="unc0ver" style="background: #445466; color: #FFFFFF; font-weight:bold; width: 72px;">تثبيت</a>
+<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Unc0ver</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">Pwn20wnd</small></div></h2>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Unc0ver/Unc0ver.plist" class="col button button-fill button-round external install"  data-id="612" data-app-name="Unc0ver" style="background: #F4F4F6; color: #000000; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
-<img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/unc0ver/Punc0ver.png" width="60%">
-<h2 class="header">Description</h2>unc0ver is a free jailbreak tool for iOS 11.0 - 11.4.1.<div class="desc" style="display: none;"><br />
+<img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Unc0ver/PUnc0ver.png" width="60%">
+<h2 class="header">Description</h2>Unc0ver is a free jailbreak tool for iOS 11.0 - 11.4.1.<div class="desc" style="display: none;"><br />
 <br />
 Changelogs:<br />
 <br />
