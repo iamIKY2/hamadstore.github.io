@@ -1,4 +1,4 @@
-<div class="page" data-name="install" data-id="612" data-app-name="WhatsApp2">
+<div class="page" data-name="install" data-id="222" data-app-name="WhatsApp2">
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
@@ -23,31 +23,7 @@ Changelogs:<br />
 <br />
 1.3.0:<br />
 <br />
-- No longer require platformization to control launchd (requires tweaks switch enabled)<br />
-<br />
-- Replace jailbreakd with jailbreakd2<br />
-- jailbreakd2: Fix freezing in low memory conditions<br />
-- jailbreakd2: Faster ldrestarts, resprings<br />
-- jailbreakd2: XCode debugging success rate improved<br />
-<br />
-1.2.7:<br />
-<br />
-- Fix a bug in v1ntex that resulted a kernel panic later in Step 2<br />
-- Actually test on an A7 device on 11.4 (thanks PastRestore on discord)<br />
-<br />
-1.2.6:<br />
-<br />
-- Fix offsetfinder path issue for A7 & A8 devices on 11.4 - 11.4.1<br />
-<br />
-1.2.5:<br />
-<br />
-- Fix sandbox issues causing app crash on A7 & A8 devices on 11.4 - 11.4.1<br />
-- Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
-<br />
-1.2.3:<br />
-<br />
-- Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
-- Fix initial ldrestart not working on some devices
+- No longer require platformization to control launchd
 </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
@@ -80,13 +56,13 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Compatibility</div>
-<div class="item-after header">Requires iOS 11.0 - 11.4.1</div>
+<div class="item-after header">Requires iOS 8.0 or later.</div>
 </div>
 </div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">3.0.0</div>
+<div class="item-after header">2.19.20</div>
 </div>
 </div>
 <div class="item-content">
