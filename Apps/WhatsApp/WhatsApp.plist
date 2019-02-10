@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Hamad.Watusi</string>
+				<string>com.Hamad.WhatsApp</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>WhatsApp Watusi</string>
+				<string>WhatsApp 1</string>
 			</dict>
 		</dict>
 	</array>
