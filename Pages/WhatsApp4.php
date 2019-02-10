@@ -1,4 +1,4 @@
-<div class="page" data-name="install" data-id="612" data-app-name="Unc0ver">
+<div class="page" data-name="install" data-id="975" data-app-name="WhatsApp4">
 <div class="page-content">
 <center>
 <div class="content-block" style="width:100%;max-width:414px; text-align:left; margin-top:-16px; margin-bottom:0px;">
@@ -6,48 +6,24 @@
 <br><br>
 <div class="row">
 <div class="col-40">
-<img width="100%" style="border-radius:25%;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/ca/d0/64/cad06465-3015-04b5-7c9f-4d22cfb7bbd0/source/512x512bb.jpg">
+<img width="100%" style="border-radius:25%;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple115/v4/ca/d0/64/cad06465-3015-04b5-7c9f-4d22cfb7bbd0/source/512x512bb.png">
 </div>
 <div class="col-60">
-<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">Unc0ver</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">Pwn20wnd</small></div></h2>
-<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Unc0ver/Unc0ver.plist" class="col button button-fill button-round external install"  data-id="612" data-app-name="Unc0ver" style="background: #F4F4F6; color: #000000; font-weight:bold; width: 72px;">تثبيت</a>
+<h2 class="header" style="padding:0px;"><div id="#appName" style="overflow:hidden;">WhatsApp 4</div><br><div style="margin-top:-35px; font-size:18px;"><small style="color:#6d6d72;">WhatsApp Inc.</small></div></h2>
+<a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/WhatsApp4/WhatsApp4.plist" class="col button button-fill button-round external install"  data-id="612" data-app-name="WhatsApp4" style="background: #F4F4F6; color: #000000; font-weight:bold; width: 72px;">تثبيت</a>
 </div>
 </div>
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
-<img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Unc0ver/PUnc0ver.png" width="60%">
-<h2 class="header">Description</h2>Unc0ver is a free jailbreak tool for iOS 11.0 - 11.4.1.<div class="desc" style="display: none;"><br />
+<img style="border-radius:9px; max-width:414px;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/a6/a9/37/a6a93735-d241-3619-9274-b23c1d3e4196/source/392x696bb.jpg" width="60%">
+<h2 class="header">Description</h2>WhatsApp 4 is WhatsApp<div class="desc" style="display: none;"><br />
 <br />
 Changelogs:<br />
 <br />
 1.3.0:<br />
 <br />
-- No longer require platformization to control launchd (requires tweaks switch enabled)<br />
-<br />
-- Replace jailbreakd with jailbreakd2<br />
-- jailbreakd2: Fix freezing in low memory conditions<br />
-- jailbreakd2: Faster ldrestarts, resprings<br />
-- jailbreakd2: XCode debugging success rate improved<br />
-<br />
-1.2.7:<br />
-<br />
-- Fix a bug in v1ntex that resulted a kernel panic later in Step 2<br />
-- Actually test on an A7 device on 11.4 (thanks PastRestore on discord)<br />
-<br />
-1.2.6:<br />
-<br />
-- Fix offsetfinder path issue for A7 & A8 devices on 11.4 - 11.4.1<br />
-<br />
-1.2.5:<br />
-<br />
-- Fix sandbox issues causing app crash on A7 & A8 devices on 11.4 - 11.4.1<br />
-- Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
-<br />
-1.2.3:<br />
-<br />
-- Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
-- Fix initial ldrestart not working on some devices
+- No longer require platformization to control launchd (requires tweaks switch enabled)
 </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
@@ -62,7 +38,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Seller</div>
-<div class="item-after header">Pwn20wnd</div>
+<div class="item-after header">WhatsApp Inc.</div>
 </div>
 </div>
 <div class="item-content">
@@ -74,19 +50,19 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Categories</div>
-<div class="item-after header">Jailbreak</div>
+<div class="item-after header">WhatsApp ?</div>
 </div>
 </div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Compatibility</div>
-<div class="item-after header">Requires iOS 11.0 - 11.4.1</div>
+<div class="item-after header">Requires iOS 8.0 or later.</div>
 </div>
 </div>
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">3.0.0</div>
+<div class="item-after header">2.19.20</div>
 </div>
 </div>
 <div class="item-content">
