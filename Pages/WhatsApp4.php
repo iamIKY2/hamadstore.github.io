@@ -16,7 +16,7 @@
 </div>
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
-<img style="border-radius:9px; max-width:414px;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/a6/a9/37/a6a93735-d241-3619-9274-b23c1d3e4196/source/392x696bb.jpg" width="60%">
+<img style="border-radius:9px; max-width:414px;" src="https://is2-ssl.mzstatic.com/image/thumb/Purple128/v4/a6/a9/37/a6a93735-d241-3619-9274-b23c1d3e4196/source/392x696bb.png" width="60%">
 <h2 class="header">Description</h2>WhatsApp 4 is WhatsApp<div class="desc" style="display: none;"><br />
 <br />
 Changelogs:<br />
