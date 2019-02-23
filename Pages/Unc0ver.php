@@ -80,7 +80,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Compatibility</div>
-<div class="item-after header">Requires iOS 11.0 - 11.4.1</div>
+<div class="item-after header">Requires iOS 11.0 - 12.1.2</div>
 </div>
 </div>
 <div class="item-content">
