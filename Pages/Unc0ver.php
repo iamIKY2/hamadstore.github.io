@@ -17,37 +17,13 @@
 <div class="content-block" style="max-width:414px; text-align:left;">
 <h2 class="header">Preview</h2>
 <img style="border-radius:9px; max-width:414px;" src="https://raw.githubusercontent.com/HamadStore/HamadStore.github.io/master/Apps/Unc0ver/PUnc0ver.png" width="60%">
-<h2 class="header">Description</h2>Unc0ver is a free jailbreak tool for iOS 11.0 - 11.4.1.<div class="desc" style="display: none;"><br />
+<h2 class="header">Description</h2>Unc0ver is a free jailbreak tool for iOS 11.0 - 12.1.2.<div class="desc" style="display: none;"><br />
 <br />
 Changelogs:<br />
 <br />
-1.3.0:<br />
+3.0.0B33:<br />
 <br />
-- No longer require platformization to control launchd (requires tweaks switch enabled)<br />
-<br />
-- Replace jailbreakd with jailbreakd2<br />
-- jailbreakd2: Fix freezing in low memory conditions<br />
-- jailbreakd2: Faster ldrestarts, resprings<br />
-- jailbreakd2: XCode debugging success rate improved<br />
-<br />
-1.2.7:<br />
-<br />
-- Fix a bug in v1ntex that resulted a kernel panic later in Step 2<br />
-- Actually test on an A7 device on 11.4 (thanks PastRestore on discord)<br />
-<br />
-1.2.6:<br />
-<br />
-- Fix offsetfinder path issue for A7 & A8 devices on 11.4 - 11.4.1<br />
-<br />
-1.2.5:<br />
-<br />
-- Fix sandbox issues causing app crash on A7 & A8 devices on 11.4 - 11.4.1<br />
-- Fix post-exploitation (stage 2) failures on A7 & A8 devices on 11.2 - 11.4.1<br />
-<br />
-1.2.3:<br />
-<br />
-- Replace threadm1ll exploit with v1ntex for A7 & A8 devices on 11.2-11.4.1<br />
-- Fix initial ldrestart not working on some devices
+- Fix a stability issue with reloading system daemons that was known for causing the device to get stuck
 </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
