@@ -62,7 +62,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">3.0.0</div>
+<div class="item-after header">3.0.0 B41</div>
 </div>
 </div>
 <div class="item-content">
