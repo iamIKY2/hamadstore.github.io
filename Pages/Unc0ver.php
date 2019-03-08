@@ -44,7 +44,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
-<div class="item-after header">24.1 MB</div>
+<div class="item-after header">39.5 MB</div>
 </div>
 </div>
 <div class="item-content">
@@ -62,7 +62,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">3.0.0 B41</div>
+<div class="item-after header">3.0.0 B43</div>
 </div>
 </div>
 <div class="item-content">
