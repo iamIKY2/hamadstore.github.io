@@ -21,9 +21,13 @@
 <br />
 Changelogs:<br />
 <br />
-3.0.0B33:<br />
+3.0~b46:<br />
 <br />
-- Fix a stability issue with reloading system daemons that was known for causing the device to get stuck
+- Improve assertion<br />
+- Prevent device from sleeping while app is active<br />
+- Internally disable the "Disable App Revokes" switch and revert its changes<br />
+<br />
+3.0~b45
 </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
@@ -44,7 +48,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Size</div>
-<div class="item-after header">39.5 MB</div>
+<div class="item-after header">39.4 MB</div>
 </div>
 </div>
 <div class="item-content">
@@ -62,7 +66,7 @@ Changelogs:<br />
 <div class="item-content">
 <div class="item-inner">
 <div class="item-title">Version</div>
-<div class="item-after header">3.0.0 B43</div>
+<div class="item-after header">3.0.0 B46</div>
 </div>
 </div>
 <div class="item-content">
