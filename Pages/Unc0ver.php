@@ -28,6 +28,16 @@ Changelogs:<br />
 - Internally disable the "Disable App Revokes" switch and revert its changes<br />
 <br />
 3.0~b45
+<br />
+- Fix the voucher_swap exploit for the beta firmwares on A12-A12X<br />
+<br />
+3.0~b44
+<br />
+- Enable partial support for A12-A12X devices<br />
+<br />
+3.0~b43
+<br />
+- Fix the sandbox escape error on some devices
 </div>
 <p>
 <a href="#" onclick="if ($$('.desc').css('display') == 'none'){$$('.desc').css('display', 'inline'); this.innerHTML='Less...'} else {$$('.desc').css('display', 'none'); this.innerHTML='More...'}" class="">More...</a>
