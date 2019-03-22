@@ -29,20 +29,37 @@ Description: animated weather background on the lock and home screen
 Author: rainwolf <rainwolf@submanifold.be>
 Name: WeatherLock
 
+Package: ch.mdaus.latchkey
+Version: 1.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Maxwell Dausch <max.dausch@gmail.com>
+Installed-Size: 5996
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./deb/LatchKey.deb
+Size: 2944932
+MD5sum: 3c5997bfb58a7b346ba88f8dfe28665a
+SHA1: b69c863bbf9580db4c8f06cf5c5555da2dce89ec
+SHA256: 24752a188c0b2d6b7541b512b771a9c2dd68886295a76665330d83436fbad170
+Section: Tweaks
+Description: Move the Face-ID lock glyph to the status bar for a cleaner look.
+Author: Maxwell Dausch <max.dausch@gmail.com>
+Depiction: http://mdaus.ch/repo/depictions/?p=ch.mdaus.latchkey
+Name: LatchKey
+
 Package: com.a3tweaks.flipswitch
-Version: 1.0.16~beta3
+Version: 1.0.16~beta4
 Architecture: iphoneos-arm
 Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
-Installed-Size: 2156
+Installed-Size: 2124
 Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.7~beta1) | firmware (<< 7.0)
 Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch
 Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
 Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
-Filename: ./deb/com.a3tweaks.flipswitch_1.0.16_beta3.deb
-Size: 273356
-MD5sum: 44a24460070293e22e6308a3c5dfdff2
-SHA1: 890390baa42db8478003c802e41d86bda26276ca
-SHA256: 734612aeda976d1ffd219c00497edcc30e5d99164dfd9c607a59da2bde3e5360
+Filename: ./deb/com.a3tweaks.flipswitch_1.0.16_beta4_iphoneos-arm.deb
+Size: 273446
+MD5sum: f71cdfd83c2e9cfb467deac8ede70207
+SHA1: 87b5a1482cb46f3261eec2887e525511b54450b3
+SHA256: 462afeedd2a0bdfe98d3b666c2c2dcc6a69befe325fe700f372bf51bed372267
 Section: System
 Homepage: https://rpetri.ch/cydia/flipswitch/beta/
 Description: Centralized toggle system for iOS
@@ -53,20 +70,55 @@ Dev: flipswitch
 Icon: file:///Applications/Preferences.app/icon-table.png
 Name: Flipswitch
 
-Package: com.aids.makecydiabuyagain
-Version: 1.1-arm64
+Package: com.blakeboxberger.lockdock
+Version: 1.0.2
 Architecture: iphoneos-arm
-Maintainer: Jake Ihasz
-Depends: mobilesubstrate
-Filename: ./deb/com.aids.makecydiabuyagain_1.1-arm64_iphoneos-arm.deb
-Size: 2856
-MD5sum: ba917f5a0ac533e3b6144dcea78fd997
-SHA1: 310682f4e577e757128597137b47b66e399df43c
-SHA256: 468c4bee8643702d217eb6b49df44340b01f96f0cc9ef91aee584d407e5b6a35
+Maintainer: Blake Boxberger
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./deb/LockDock102.deb
+Size: 19252
+MD5sum: 312687e924ced24d436e74f5389b5df6
+SHA1: 7532ce0671fe66d471d8752e77309a578e6781de
+SHA256: 72c444387a74439a38c629ad6b46dbd9c733d9c07ad3b1aad81959443a43c0b8
 Section: Tweaks
-Description: Enable Cydia to purchase any package on iOS 11+
-Author: Jake Ihasz
-Name: MakeCydiaBuyAgain
+Homepage: https://repo.dynastic.co/package/lockdock
+Description: Add your dock to your Lock screen for quick and easy access to your favorite apps!
+Author: Blake Boxberger
+Depiction: https://repo.dynastic.co/package/lockdock
+Name: LockDock
+
+Package: com.bytafont.bytafont3
+Version: 3.5
+Architecture: iphoneos-arm
+Maintainer: Mikasa <nami_san@outlook.com>
+Depends: firmware (>= 11), unzip, mobilesubstrate
+Filename: ./deb/com.bytafont.bytafont3_3.5_iphoneos-arm.deb
+Size: 779640
+MD5sum: ce5fc79edb29efd057568d7a10e5beb5
+SHA1: 64aef98f883279c93c1611eabc29d03ab44af72a
+SHA256: d9dd82962695ce0fa427d6586b86ca44f643c7de90a028992cd4d2892afdd0c5
+Section: System
+Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
+Author: BytaFont.com <info@bytafont.com>
+Depiction: http://repo.bytafont.com/bytafont_depiction
+Name: BytaFont 3
+
+Package: com.donbytyqi.tinybanners
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Nasser
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 12.0)
+Filename: ./deb/TinyBanners001.deb
+Size: 90296
+MD5sum: cf1c58e4278fee95da2b53f2369de0d6
+SHA1: 63d3d4688132afee87ebd471cd8691dadc1195a9
+SHA256: 93c273e9e4064d446c928f0a91e92e0a969ab099d58716bbcd3fc898166542ab
+Section: Tweaks
+Homepage: https://repo.packix.com/package/com.donbytyqi.tinybanners/
+Description: Unobtrusive yet useful notification banners!
+Author: Don <spontaneousarray@gmail.com>
+Depiction: https://repo.packix.com/package/com.donbytyqi.tinybanners/
+Name: TinyBanners
 
 Package: com.exile90.icleanerpro
 Version: 7.7.2
@@ -242,7 +294,7 @@ Version: 1.0-arm64
 Architecture: iphoneos-arm
 Maintainer: kael
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: ./deb/com.kael.inapp_1.0-arm64_iphoneos-arm.deb
+Filename: ./deb/InApp.deb
 Size: 10144
 MD5sum: 80b56f0f0508fafdccc2911c59359e17
 SHA1: c593fa723896fdd79e1f9c03c6cdab0820ee7259
@@ -251,6 +303,23 @@ Section: Tweaks
 Description: In-App Purchases hacking
 Author: kael
 Name: InApp
+
+Package: com.laughingquoll.betterrotate
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Naser
+Depends: mobilesubstrate
+Filename: ./deb/BetterRotate11.deb
+Size: 25272
+MD5sum: 151a5219ef8f4d2c67571b92746a3825
+SHA1: 91de4455045949ac44c65328f35cfc04af503f09
+SHA256: 57f1bfeae424d3d5644eef06f38c6c74f51b9cfe9519b462875cb45a20f2217d
+Section: Tweaks
+Homepage: https://repo.packix.com/package/com.laughingquoll.betterrotate/
+Description: A smarter orientation lock.
+Author: LaughingQuoll
+Depiction: https://repo.packix.com/package/com.laughingquoll.betterrotate/
+Name: BetterRotate
 
 Package: com.macciti.veexillum
 Version: 2.8
@@ -310,6 +379,24 @@ Dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Library/PreferenceBundles/XenHTMLPrefs.bundle/Icon@2x.png
 Name: Xen HTML
 
+Package: com.midnightchips.asteroid
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: midnightchips & the casle
+Installed-Size: 1144
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker
+Filename: ./deb/com.midnightchips.asteroid_2.0.1.deb
+Size: 630524
+MD5sum: 8e449fbd019f3af73cb9814aebf30019
+SHA1: 5fd718e475d7717ae9b96cb1bb2cb6847de5a9cc
+SHA256: 9e450c0d2045c95e9897f7e4f7cc930c5ccfdc07fd4f9365629ebea81abf9a94
+Section: Tweaks
+Priority: optional
+Description: System-Wide Weather.
+Author: midnightchips & the casle
+Dev: midnightchips & the casle
+Name: Asteroid
+
 Package: com.mumiantech.NotifierDots
 Version: 0.2-1
 Architecture: iphoneos-arm
@@ -343,6 +430,108 @@ Depiction: http://julio.xarold.com/files-deb/cydown.html
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
+Package: com.nito.ncontrol
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Depends: mobilesubstrate
+Filename: ./deb/com.nito.ncontrol_1.0-1_iphoneos-arm.deb
+Size: 231284
+MD5sum: 6a8b02528bee2d390b672e2e312c2b4c
+SHA1: d6b23d4af1e4b99f2b2cb9955732d10050232817
+SHA256: 200daaf7f77d43e576df7cbc6b81b67a1295783e784da44ee12a2e5940283bd5
+Section: Tweaks
+Description: Use Sony Dual Shock 4 / Slim, XBox One, Evo VR Pro and Nintendo Switch Joy-Con controllers in any application that supports MFI controllers.
+Author: Kevin Bradley & Luca Todesco <kevin@nito.tv>
+Depiction: https://repo.chariz.io/package/com.nito.ncontrol/
+Icon: https://repo.chariz.io/package/com.nito.ncontrol/icon@3x.png
+Name: nControl
+
+Package: com.noisyflake.goodges2
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake
+Installed-Size: 352
+Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker, applist
+Filename: ./deb/com.noisyflake.goodges2_2.0.0.deb
+Size: 37332
+MD5sum: a543be0488a2096e1c101084ca7fc73d
+SHA1: 2917d447a2b4b27e0206513b8d8c64fe8ce5858f
+SHA256: 2bec8209c2d98c72773d68422d8c4e8c1113a024fa8c7290822e59d0b0ea0b6e
+Section: Tweaks
+Description: Good bye badges, hello labels !
+Author: NoisyFlake
+Depiction: https://apt.noisyflake.com/depictions/index.html?id=com.noisyflake.goodges2
+Name: Goodges 2
+
+Package: com.noisyflake.ipadstatusbar
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake
+Installed-Size: 244
+Depends: mobilesubstrate
+Filename: ./deb/com.noisyflake.ipadstatusbar_1.1.0.deb
+Size: 12336
+MD5sum: 7e3d81125be84559a69e89889fc9620c
+SHA1: abda5b41dc75fb8ce014f58f49385c21b33f179c
+SHA256: 071cd290340a2b1ce9a27c5eb1e357b4783ddf4722df0008dea4502d23bcc8b8
+Section: Tweaks
+Description: Enables the iOS 12 iPad Statusbar on all devices
+Author: NoisyFlake
+Depiction: https://apt.noisyflake.com/depictions/index.html?id=com.noisyflake.ipadstatusbar
+Name: iPadStatusBar
+
+Package: com.noisyflake.moderndock
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: ./deb/com.noisyflake.moderndock_1.0.0.deb
+Size: 1946
+MD5sum: 559937c71bd71b35dcd5d80ba05c9f44
+SHA1: e80fc4d93d4d1bb0adb9d50f5431a35fb9222dcf
+SHA256: 5b2a56255e783da272c57698d2e8ce3ccc6dd2d1d827186eede5356f450a05c7
+Section: Tweaks
+Description: Enables the native iPhone X dock on older devices
+Author: NoisyFlake
+Depiction: https://apt.noisyflake.com/depictions/index.html?id=com.noisyflake.moderndock
+Name: ModernDock
+
+Package: com.noisyflake.shortcutenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake
+Installed-Size: 244
+Depends: mobilesubstrate
+Filename: ./deb/com.noisyflake.shortcutenabler_1.0.0.deb
+Size: 15804
+MD5sum: 40162a8a777e647457fb1e6a38f9054e
+SHA1: 6531e9e3205ff3ab690b126a6720ca62f6f029be
+SHA256: f168b3f6a5f793949834aaec97c8d52a8f552339bd0d450fa241bc75f3148e25
+Section: Tweaks
+Description: Enable the lockscreen flashlight / camera buttons on all devices.
+Author: NoisyFlake
+Depiction: https://apt.noisyflake.com/depictions/index.html?id=com.noisyflake.shortcutenabler
+Name: ShortcutEnabler
+
+Package: com.noisyflake.wificarrier
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: NoisyFlake
+Installed-Size: 248
+Depends: mobilesubstrate
+Filename: ./deb/com.noisyflake.wificarrier_1.1.0.deb
+Size: 18464
+MD5sum: d11bba7b930ddc15519095870c2b7256
+SHA1: 10dda2f70d41b4ab051a28db3ff0a4ae2f5339eb
+SHA256: 847eff109cfab0888d4d33d0bd6595f2044d6a9e8d3fe2e562bd2f270dd8055b
+Section: Tweaks
+Description: Display the WiFi SSID as Carrier
+Author: NoisyFlake
+Depiction: https://apt.noisyflake.com/depictions/index.html?id=com.noisyflake.wificarrier
+Name: WiFiCarrier
+
 Package: com.peterdev.whatabouthis
 Version: 1.0
 Architecture: iphoneos-arm
@@ -360,17 +549,98 @@ Description: An awesome MobileSubstrate tweak!
 Author: PeterDev <djperter@icloud.com>
 Name: WhatAboutThis
 
+Package: com.peterdev.xeon
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: PeterDev <djperter@icloud.com>
+Installed-Size: 2176
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), cy+cpu.arm64, com.rpetrich.rocketbootstrap, com.muirey03.libimagepicker
+Provides: com.alexzielenski.zeppelin
+Filename: ./deb/com.peterdev.xeon_1.0.1_iphoneos-arm.deb
+Size: 466402
+MD5sum: 43165a050acc19eaa4d0340209a6c9c2
+SHA1: 7de38f590050c1b6ec3fb1e409bc9071f6d3d9fb
+SHA256: 0267de2c4a98e4acb9de44943a9f48e43aa4a70ee98618f3f75e86ef7dfe9d82
+Section: Tweaks
+Description: Supercharge status bar!
+Author: PeterDev <djperter@icloud.com>
+Icon: https://nexusrepo.kro.kr/depictions/com.peterdev.xeon/screenshots/Icon.png
+Name: Xeon
+
+Package: com.ps.amber
+Version: 0.0.2.10
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Depends: mobilesubstrate, firmware (>= 11.0), com.opa334.ccsupport
+Filename: ./deb/Amber0210.deb
+Size: 19060
+MD5sum: 400d944b793f3dd708d1b39ff007fbbc
+SHA1: 8e6dffa10b564a87bed80ae607807bf6699e52f5
+SHA256: eb9f855cb803058d53922e3fc20e823f752d9ee03de3ccceacab044fbb33e74d
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Name: Amber
+
+Package: com.ps.cconandoff
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.jakeashacks.realcc
+Filename: ./deb/CC001.deb
+Size: 3038
+MD5sum: a617469f3720f3ae53f169e6bda5eb68
+SHA1: 3d81e81ee6237bc4fbc3da7d19267536defa0ead
+SHA256: 2d7502ce314108d862ee87308f851a24d1122dac7d88c1367187b75421a04e78
+Section: Tweaks
+Description: Properly toggle Wi-Fi and Bluetooth from CC (iOS 11+)
+Author: PoomSmart
+Name: CC On & Off
+
+Package: com.ramenrepo.limelight
+Version: 1.9.6
+Architecture: iphoneos-arm
+Maintainer: ty_ph <tylerpharand@gmail.com>
+Filename: ./deb/com.ramenrepo.limelight_1.9.6.deb
+Size: 32635136
+MD5sum: 1bcf2bf31a598a61e46676a5916f1644
+SHA1: 4b7a88889af6cdd095ad1bbc16ad3dbf63b07501
+SHA256: 8614886ad5ab30cf5448bb3fc14a935d1b80a963ea9597d101276c19915e008b
+Section: Themes
+Homepage: ramenrepo.github.io
+Description: Colorful glyphs for anemone
+Author: ty_ph <tylerpharand@gmail.com>
+Depiction: https://ramenrepo.github.io/depictions/?p=com.ramenrepo.limelight
+Name: Limelight
+
+Package: com.restiveconch.messagecolors
+Version: 1.4.1
+Architecture: iphoneos-arm
+Maintainer: RestiveConch <restiveconch@gmail.com>
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./deb/MessageColors141.deb
+Size: 14592
+MD5sum: 3a2b001f790997a1f7a8f3fbc57b155e
+SHA1: 6c5bc6004de1c92ef70e8d7963903d5ad4e4cdea
+SHA256: dc00bd944ac9c9295117ec052a26f8dcb5131eb7d4326829b5102edeb4d14459
+Section: Tweaks
+Description: Dark messages & theme message bubble gradients
+Author: RestiveConch <restiveconch@gmail.com>
+Name: MessageColors
+
 Package: com.rpetrich.rocketbootstrap
-Version: 1.0.7~beta1
+Version: 1.0.7~beta2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 548
+Installed-Size: 500
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Filename: ./deb/com.rpetrich.rocketbootstrap_1.0.7_beta1_iphoneos-arm.deb
-Size: 31284
-MD5sum: f4473ac577a05f861bf7a85ce734dbf0
-SHA1: 8c377c25486f44dd7a0f803b6e5b51ee11ec71f6
-SHA256: 4ebdf77bad704660a0c4f3568b36c089ca075615fcb7206d2d09ee1fa9ce091a
+Filename: ./deb/com.rpetrich.rocketbootstrap_1.0.7_beta2_iphoneos-arm.deb
+Size: 31720
+MD5sum: 9cfa55734fdd98009da9b22dde9dd5d1
+SHA1: 4280338c3b99d6b4dc8e51404a361a85cc69fcd6
+SHA256: b68199f6bad944172b4a2d55307e4e84b49a1f162682bc9b7d6e486ead0b586f
 Section: Tweaks
 Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Description: Support library allowing tweaks to communicate with sandboxed processes
@@ -418,83 +688,161 @@ Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
 
 Package: com.smokin1337.togglow
-Version: 1.0.5
+Version: 1.0.6-1
 Architecture: iphoneos-arm
 Maintainer: smokin1337
-Installed-Size: 872
+Installed-Size: 1044
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./deb/com.smokin1337.togglow_1.0.5.deb
-Size: 187166
-MD5sum: c3c76d41be3a838d98710c17720509da
-SHA1: 0625546f4f0e7e69f0b24b3679b281d8665df31b
-SHA256: 467a9dc404d24240abf11bcc4455894c107406785bda9e171a38e04655b87708
+Filename: ./deb/com.smokin1337.togglow_1.0.6-1.deb
+Size: 323492
+MD5sum: 80abd1161ea53f02b2dbd82e805bacb8
+SHA1: 1bc74888ebd778b7464e56b9598e778449a380ed
+SHA256: 92c124b46988ba2e98c321905167aaa35c3a74084b06367f0d73d11d01951253
 Section: Tweaks
 Description: Make the control center your own !
 Author: smokin1337
 Depiction: https://www.idevicehacked.com/depictions/?p=com.smokin1337.togglow
 Name: Togglow
 
+Package: com.spark.noccbar
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./deb/NoCCBar102.deb
+Size: 2096
+MD5sum: b5dc3033d0a00f74cbf64512d8863700
+SHA1: 832c093f7305c8f53c516f83f4d9f80585ebfad7
+SHA256: efaef287598cc94eae8089a5b774391cf7d28a5673bb21ff192d2e60d9b50007
+Section: Tweaks
+Description: Removes the annoying lockscreen control center grabber bar on iPhone X iOS 11.2+
+Author: Spark
+Depiction: https://member.sparkservers.co.uk/Depictions/Depiction?productName=NoCCBar
+Name: NoCCBar
+
 Package: com.spark.snowboard
-Version: 1.1.4
+Version: 1.1.5
 Architecture: iphoneos-arm
 Maintainer: Spark
 Depends: mobilesubstrate, jp.ashikase.techsupport, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboardapplication
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboardapplication
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboardapplication
-Filename: ./deb/SnowBoard114.deb
-Size: 939466
-MD5sum: 55c49724b4a6639e58e0cce75ced7a30
-SHA1: 2f30b8a56edbf62d110a36987896c4a5b5d182e8
-SHA256: d068a90575dccc4bbebcae7748fb0c7d282c970a663e88f41a057ec21d1a5e12
+Filename: ./deb/SnowBoard115.deb
+Size: 874032
+MD5sum: 83260df422b8fe913d648996c3260115
+SHA1: 6a61384aaaa709340688cc910032642ea0d8e5eb
+SHA256: 480905140de491ec0d11699b065616024752b0aeb49c90413aeb3e6e13b9648e
 Section: Tweaks
 Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
 Name: SnowBoard
 
+Package: com.thireus.untrustedhostsblocker9
+Version: 1.5.1
+Architecture: iphoneos-arm
+Maintainer: Thireus <repo@thireus.com>
+Installed-Size: 69
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 9.0), sed, grep, coreutils, shell-cmds
+Conflicts: com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker
+Filename: ./deb/com.thireus.untrustedhostsblocker9_1.5.1.deb
+Size: 51322
+MD5sum: 4ccd9ad7a363a4e8f8790e93904bbd36
+SHA1: d58645bbdb2af9c32e6da5eb8d719437c6a0d990
+SHA256: 533d27a936ccb18e344814078521fefa177b4019f87f2a66e1bb142d6db62541
+Section: Security
+Priority: standard
+Homepage: https://repo.thireus.com
+Description: Say goodbye to tracking, spies, intrusive ads and untrusted hosts.
+ Blocks around 3,400 blacklisted hosts!
+ .
+ This tweak's main goal is to block a maximum of third-party hosts used by your applications that have been identified as collecting personal and confidential data (location, contacts, UDID, etc.) for commercial, tracking or advertising purpose.
+ .
+ This package will add all blacklisted hosts to your /etc/hosts file. It will NOT overwrite your custom hosts file (if you already have custom entries in your hosts file, they will remain untouched)!
+ .
+ If you are unhappy with this tweak you can uninstall this package. It will ONLY remove the installed entries by the tweak and leave untouched any other entries you may have added manually to the hosts file. But make sure to wait until the end of the uninstallation process. In case your hosts file is broken (should never happen), the installation or uninstallation script will repair it.
+ .
+ If your device Internet is not working anymore after installing this tweak, it means your /etc/hosts file is too big for mDNSResponder. If that happens (it shouldn't, read FAQ 5.), please uninstall this tweak, then install "Hosts Cleaner" and reinstall this tweak.
+ .
+ Avoid combining this tweak with other hosts blocker tweaks as they may interfere with your customised /etc/hosts file.
+ .
+ IMPORTANT: Due to /etc/hosts filesize limitations since iOS 9, this version mainly focuses on blocking hosts that can impact your privacy or security. Some of the most common advertisement hosts are still blocked by this version but a lot had to be removed from the previous UHB versions. Therefore, I cannot guarantee that you won't see any ads at all.
+ .
+ Please only send me blocking requests for intrusive hosts. I will no longer consider requests for harmless advertisement hosts. Sorry.
+ .
+ FAQ:
+ .
+ 1. Many people try to install the "Untrusted Hosts Blocker" version instead of "UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)". The name of the tweak is "UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)" compatible with iOS 9/10/11 and iOS 12. The old version "Untrusted Hosts Blocker" is compatible with iOS 8 and below only. Just browse my repository to find the right package.
+ 2. Still seeing ads? I'm sorry, but there isn't much I can do about it. If you're using a VPN or a Proxy entries in /etc/hosts will most likely be ignored, so you will see ads.
+ 3. You don't need to reboot your device after installation.
+ 4. This tweak has a very good chance to be already compatible with unrealeased iOS versions (i.e. iOS 13, iOS 14, iOS 15, etc.). Just give it a try!
+ 5. Can't install the package because install fails with an error message stating the hosts file is too heavy? There is a limit to the number of hosts mDNSResponder can handle. Passed that limit your DNS resolver would stop functioning (no Internet access, device becoming hot because 100% CPU usage, etc.). Uninstall your other "ad-blockers" or flush your /etc/hosts file with "Hosts Cleaner".
+ 6. Does this tweak impact my battery life? No.
+ 7. If the install or removal process seems stuck and says, "PLEASE WAIT!!!!! (removal can take up to 3 minutes)", you definitely have to wait 3 minutes. If you decide to kill Cydia for some reason that will most likely corrupt your /etc/hosts file, in which case you will have to install "Hosts Cleaner" to revert it back to normal.
+ 8. Your device runs hot after install? Websites don't load? Install "Hosts Cleaner" to clear your /etc/hosts file (revert it back to Apple stock version) and reinstall Untrusted Hosts Blocker package(s).
+ 9. Something wrong happened? No panic, no need to restore your device. There are often easy and straightforward solutions to any problems. Just come here and talk about it.
+ 10. How can I check my installation was successful? Try to access with Safari: www.obdev.at It is one of the many hosts that UHB blocks. If you cannot access this website, congratulations UHB is successfully installed.
+ 11. Why is UHB not working when I am using mobile data (3G/4G/LTE)? Some mobile data ISPs will use proxies, DNS resolution can happen through the proxy and bypass /etc/hosts. Or sometimes can use IPv6 instead of IPv4. There is nothing else I can do about it. Talk to your ISP. If you want to verify if this is the reason why UHB is not working for your device: remove your SIM card or disable mobile data completely, use WiFi only and reboot your device (that will clear the DNS cache), then try to access with Safari www.obdev.at It is one of the many hosts that UHB blocks. If you cannot access this website, congratulations UHB is successfully installed. T-Mobile users can reach out to /u/aakashkk on Reddit for his solution: "TMUS IPv4v6 Data.mobileconfig" (for your security, open this file with a text editor before installing it on your device, and make sure it does not contain any IPs, URLs or DNS servers anywhere. MD5: a131d6430eb82795cd30f87c35d6edfb; SHA256: a5943fb6550de9aa70dbd23527e6b9f9e2a08c1486083505cc75cc48173dfb4b).
+ 12. The first installation hangs, what should I do? It may happen that your first installation of UHB stays stuck. Wait 2 or 3 minutes. If it is still stuck, kill Cydia and install "Hosts Cleaner", then reinstall UHB.
+ 13. I have installed UHB on iOS 12, but ads are not blocked, why? This is a known issue, iOS 12 appears to handle DNS resolution differently than previous versions. A patch called LetMeBlock is now integrated in the latest unc0ver release (v3.0.0~b33 or higher): https://github.com/pwn20wndstuff/Undecimus/releases
+ 14. Is it compatible with iOS 12? Yes.
+ 15. I cannot access www.obdev.at (Point 14.), so it means UHB is working. But I can still see some ads, why? Because UHB only blocks certain hostnames known to serve ads, not all. This tweak is not an adblocker. If you wish to block ads more efficiently, you can use Brave. For in-app ads there isn't much that can be done, the /etc/hosts file being already maxed out. Please contact Apple and ask them to remove the /etc/hosts # entries limit.
+ 16. I am on iOS 12. I have enabled tweaks on unc0ver. I am using unc0ver b33 or higher version. But it seems UHB is still not working, why? Most likely because the LetMeBlock tweak is not loaded properly: Make sure you enable loading both tweaks and daemons! Or maybe it could be an issue with your Jailbreak not loading LetMeBlock properly. If http://ocsp.apple.com on Safari displays "Not Found on Accelerator", then LetMeBlock is not working for you! Please raise this issue to @PoomSmart & @Pwn20wnd! In any case, you NEED LetMeBlock to work for your device!!! (FYI ocsp.apple.com is always automatically injected in /etc/hosts by the Jailbreak, this is a host that always needs to be blocked to prevent iOS updates!)
+ 17. This tweak will not work if your network uses IPv6 instead of IPv4. Adding IPv6 support would mean doubling the number of blocked hosts, which is currently not an option.
+ .
+ UPDATED: v1.3.0 (30/03/2018) - Official support for iOS 11.
+ UPDATED: v1.4.0 (24/07/2018) - The new install script will try to prevent installations that would lead to a /etc/hosts file size that iOS can’t handle (install will fail if the size limit is reached and will ask the user to clear the hosts file). For reference, this is a known issue that break iOS domain name resolving once the hosts file reaches a certain size.
+ UPDATED: v1.5.0 (16/03/2019) - Official support for iOS 12. "Minimal Hosts Blocker" hosts moved from "Experimental UHB (Untrusted Hosts Blocker) - EUHB" to this package. Few more hosts (user requests) moved from EUHB to UHB. FAQ added. Youtube history issue resolved. Name changed to "UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)".
+ UPDATED: v1.5.1 (16/03/2019) - Minor corrections (some hosts cleaned). Fixed compaibility issue with some older Jailbreaks (deb xz compression not being supported). Updated FAQ to include note for T-Mobile users.
+Author: Thireus <repo@thireus.com>
+Name: UHB - iOS 9/10/11/12 (Untrusted Hosts Blocker)
+
 Package: com.tigisoftware.appdatamanager
-Version: 1.4.3-2
+Version: 1.5.0-12
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Filename: ./deb/AppsManager.deb
-Size: 1402584
-MD5sum: e875642884175b7feb5ecf1653194cf8
-SHA1: 21e253ef59fd00ed9b95e6d0cfbfe2c7bd4ca9ee
-SHA256: c21e0279d7ec6cd15e3d59cc4af822278965e2cbc9002110c1cfa760104378fd
+Installed-Size: 8928
+Filename: ./deb/com.tigisoftware.appdatamanager_1.5.0-12_iphoneos-arm.deb
+Size: 3645652
+MD5sum: d4d41edb819ab42514b6468ec7710030
+SHA1: 119f7e6095216f06ebb115bbfa468f2eaac5f94f
+SHA256: d2c3f11ff68750ea8b2cc376e6ab72e6a7978f7f6bd8fb0c8c92855937ac5684
 Section: Utilities
 Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
 Author: TIGI Software
 Name: Apps Manager
 
 Package: com.tigisoftware.filza
-Version: 3.6.4-2
+Version: 3.6.5-12
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Installed-Size: 29640
+Installed-Size: 29684
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza64bit
-Filename: ./deb/com.tigisoftware.filza_3.6.4-2_iphoneos-arm.deb
-Size: 12415528
-MD5sum: a25978cd68bc6e68a723307412e378b0
-SHA1: 2b8287236c219005fd56b8f8a35bde2ce7a9b229
-SHA256: 32141be19d6d865371bf5a638582d3e74e8890f1f40dd4f39bef0bc5ea2c5f01
+Filename: ./deb/com.tigisoftware.filza_3.6.5-12_iphoneos-arm.deb
+Size: 12428404
+MD5sum: 19e7db3fa118daa5bf72f3299ad106d5
+SHA1: 3bd3810dce764de81904b04d787a6949d5bd6f0b
+SHA256: 6a6e7733cd3508f4cfa3aeb0f72e5f0c7c37a830cea7a717c0d1aeb77f8e8957
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
 Author: TIGI Software
 Name: Filza File Manager
 
 Package: com.tigisoftware.filza64bit
-Version: 3.6.4-2
+Version: 3.6.5-12
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Installed-Size: 20100
+Installed-Size: 20128
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./deb/com.tigisoftware.filza64bit_3.6.4-2_iphoneos-arm.deb
-Size: 8257544
-MD5sum: 7ab5dec77808dc9088a705fcb5b3dd44
-SHA1: 6d1678894504710f9dfddec2e67bc5dc0dd036af
-SHA256: 1b762cfc0272bcb25a93c2a5b8f1d569e94bad079376090bfc9f4356d9d995e2
+Filename: ./deb/com.tigisoftware.filza64bit_3.6.5-12_iphoneos-arm.deb
+Size: 8269200
+MD5sum: c65597e0eb0fb653a68c25f669a861ff
+SHA1: 60e8fe7207ee7d772442f2069697ae7e66bb27fd
+SHA256: 952eab710819fecd9eb01e435606c27da922cd13243dddf57f6c8ea2c41f8872
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
@@ -536,6 +884,56 @@ Author: UnlimApps Inc.
 Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.uaupdatetools/
 Name: App Admin
 
+Package: com.vitataf.homegesture
+Version: 2.1.4
+Architecture: iphoneos-arm
+Maintainer: MidnightChips/PINPAL
+Installed-Size: 3244
+Pre-Depends: com.spark.libsparkapplist
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker
+Filename: ./deb/com.vitataf.homegesture_2.1.4.deb
+Size: 2278274
+MD5sum: bb6b4ecfa15fa25ad8cebf7b43b129b8
+SHA1: 50f884cc26a28bf8e424d147d76f02773a1799f2
+SHA256: f3c9c90d82a520c7305b64e7e228946745a3f5a1ee8a70f4b1cd787971ca9ef5
+Section: Tweaks
+Description: Enable iPhone X home gesture on other devices.
+Author: VitaTaf/MidnightChips/PINPAL
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+Name: HomeGesture
+
+Package: com.wizage.gif2ani2
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: wizages, MidnightChips
+Installed-Size: 252
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.creaturecoding.libcspreferences, org.thebigboss.libcolorpicker
+Provides: com.aditkamath.springy
+Filename: ./deb/Gif2Ani2.1.deb
+Size: 32414
+MD5sum: a209c3df20d468cdc5a5d600bfb1b25e
+SHA1: 4c834c22af23991b6ab4d0539d7ec0bdb68fee7c
+SHA256: f7adf4c5b7249a151d3c8f09c6a0de8d9d4260cf6084f34070769d8cb70630d7
+Section: Tweaks
+Description: iOS Respring animations from any gif you want!
+Author: wizages, MidnightChips
+Name: Gif2Ani V2
+
+Package: com.zowlverein.notchvolumehud
+Version: 0.2.6
+Architecture: iphoneos-arm
+Maintainer: Zowlverein <zowlverein@outlook.com>
+Depends: mobilesubstrate
+Filename: ./deb/NotchVolumeHUD026.deb
+Size: 26184
+MD5sum: c5c74c11f42ed75820765e62803ebe7b
+SHA1: 00e662b7cb9e425d4a0fbd2d0ee39f4a5417134a
+SHA256: 9ccbf3289784126dc068eadf3e2c06e7b43f6fe8752d9914555e789e0085b9e9
+Section: Tweaks
+Description: A volume bar displayed around the notch.
+Author: Zowlverein <zowlverein@outlook.com>
+Name: NotchVolumeHUD
+
 Package: libactivator
 Version: 1.9.13~beta3
 Architecture: iphoneos-arm
@@ -560,53 +958,22 @@ Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Name: Activator
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: me.nepeta.libnepeta
-Version: 0.1.0
+Package: me.gmoran.eclipse12
+Version: 6.0.4
 Architecture: iphoneos-arm
-Maintainer: Nepeta
-Installed-Size: 148
-Filename: ./deb/me.nepeta.libnepeta_0.1.0.deb
-Size: 13924
-MD5sum: 76b512e633c33f9a1afcf31745f7d7bc
-SHA1: abd7571f7c6978d99eddf893333bb9c0042791ca
-SHA256: a707af298b570d2ad640b6f6cfd7ba2fc491a11d57affaa4d022b38c7c7f391d
-Section: Development
-Description: Nepeta's color utils
-Author: Nepeta
-Name: libnepeta
-
-Package: me.nepeta.notifica
-Version: 0.1.9
-Architecture: iphoneos-arm
-Maintainer: Nepeta
-Installed-Size: 808
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.11), me.nepeta.libnepeta
-Conflicts: ch.mdaus.palette, com.golddavid.colorbanners2, io.ominousness.modernxi, com.golddavid.colorbanners2-new
-Filename: ./deb/me.nepeta.notifica_0.1.9.deb
-Size: 358400
-MD5sum: 5a0cd8b5e408fd2e6108abcd1e9c6cbf
-SHA1: a54986991a9eaf15608775d891f7095f02099d47
-SHA256: 01b2413f48b5e593ddc2df437e79be1a4b6f906ae5ea118514b564eb12dfa1e4
+Maintainer: Nasser
+Depends: mobilesubstrate, preferenceloader, applist, firmware (>= 12.0), com.creaturesurvive.libcscolorpicker
+Filename: ./deb/Eclipse12.deb
+Size: 599540
+MD5sum: e3e84f20971d13a0506617b189e38324
+SHA1: fe296a2325f1cd81e2e7ec22d1a2e231458b6291
+SHA256: ca1b1307e1e3911b93ea0c23dc3fc05c2b5a188a658bdb9bd8a36df546a10ca2
 Section: Tweaks
-Description: Notification customizer
-Author: Nepeta
-Name: Notifica
-
-Package: me.nepeta.slyd
-Version: 0.1.1
-Architecture: iphoneos-arm
-Maintainer: Nepeta
-Installed-Size: 212
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
-Filename: ./deb/me.nepeta.slyd_0.1.1_iphoneos-arm.deb
-Size: 14176
-MD5sum: f36534af37313656d962f49b1acf595e
-SHA1: 71710b50191225b1e6e00d1dd569c98817e6e8ee
-SHA256: 6e7c7d080bb8cd83dc98fa0cb3af9218497e6d90d20ade4ff83b6336fd067341
-Section: Tweaks
-Description: Slide to unlock for iOS 11 and 12.
-Author: Nepeta
-Name: Slyd (SlideToUnlock)
+Homepage: https://repo.packix.com/package/me.gmoran.eclipse12/
+Description: Customizable Dark Mode for iOS 12!
+Author: Guillermo Morán (fr0st) <gmorandotme@gmail.com>
+Depiction: https://repo.packix.com/package/me.gmoran.eclipse12/
+Name: Eclipse Dark Mode (iOS 12)
 
 Package: me.totlol.tmp.nds4ios
 Version: 1.0
@@ -660,6 +1027,23 @@ Author: tateu (Josh Harris) <tateu@tateu.net>
 Depiction: http://www.tateu.net/repo/html/?p=bannersounds12
 Name: Banner Sounds 12
 
+Package: net.tateu.nextalarm12
+Version: 1.0.0~beta4
+Architecture: iphoneos-arm
+Maintainer: tateu
+Installed-Size: 279
+Depends: firmware (>=12.0), mobilesubstrate, preferenceloader
+Filename: ./deb/net.tateu.nextalarm12_1.0.0_beta4_iphoneos-arm.deb
+Size: 63162
+MD5sum: 36d43d8c9babf7da590e9ab93cbf02a1
+SHA1: 94b32be16c616fcb628924d54f89b2dc983b0874
+SHA256: bda1d415f339df59d432cffb6941167262fcf283c04c36090abe86766952aed5
+Section: Tweaks
+Description: Show the next alarm (today or tomorrow only) in the status bar, under the LockScreen clock and/or as a badge on the clock icon.
+Author: tateu
+Depiction: http://www.tateu.net/repo/html/?p=nextalarm12
+Name: NextAlarm12
+
 Package: preferenceloader
 Version: 2.2.4~alpha2
 Architecture: iphoneos-arm
@@ -680,68 +1064,16 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preference
 Dev: dustinhowett
 Name: PreferenceLoader
 
-Package: ru.rejail.audiorecorderxs
-Version: 3.0-74
-Architecture: iphoneos-arm
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12), ru.rejail.limneosos
-Conflicts: net.limneos.callrecorder
-Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
-Filename: ./deb/ru.rejail.audiorecorderxs_3.0-74.deb
-Size: 1418496
-MD5sum: 885edf20807ba2f6ea393fb492bc4b09
-SHA1: e8e04251f03eeeb762cdc5bbfe12cbcc90af6f74
-SHA256: 5fd64d4020b26a42118dfc765c498bd508e45097edb7dab7b1359cdb3b31abef
-Section: Tweaks
-Description: Most Advanced iOS Call Recorder Ever!
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audiorecorderxs
-Name: AudioRecorder XS (iOS 12)
-
-Package: ru.rejail.bioprotectxs
-Version: 4.0-47
-Architecture: iphoneos-arm
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12), ru.rejail.limneosos
-Filename: ./deb/ru.rejail.bioprotectxs_4.0-47.deb
-Size: 470536
-MD5sum: aa86ec520ae0fc2d64465fced64128fb
-SHA1: fd0b565c54a1d4e9999787d44f7c6f9d04ac7158
-SHA256: 8e47ccf3a520d784e7163c5cd6fa755548455f38c39c93baac138d91276baae1
-Section: Tweaks
-Description: Protect your apps with Touch/Face ID!
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://limneos.net/bioprotectxs
-Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect@3x.png
-Name: BioProtect XS (iOS 12)
-
-Package: ru.rejail.callbarxs
-Version: 2.1-22
-Architecture: iphoneos-arm
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Depends: mobilesubstrate, preferenceloader, ru.rejail.limneosos
-Filename: ./deb/ru.rejail.callbarxs_2.1-22.deb
-Size: 159048
-MD5sum: cdbd95fd267758db3af207696c61e7db
-SHA1: b9aeeb8897f9043483063f9bfe1c09209ed84fc0
-SHA256: 54ee0b2e876f47fa6a7006679cd0bf4640bd5da6033856020d851a4484147de9
-Section: Tweaks
-Description: Don't let incoming calls interrupt you!
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://limneos.net/callbarxs
-Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
-Name: CallBar XS (iOS 12)
-
 Package: ru.rejail.limneosos
-Version: 1.1.2
+Version: 1.1.3
 Architecture: iphoneos-arm
 Maintainer: ReJail <rejail@rejail.ru>
 Depends: mobilesubstrate
-Filename: ./deb/ru.rejail.limneosos_1.1.2.deb
-Size: 32756
-MD5sum: c27c32b89ed984678b5f7bb835ca7e08
-SHA1: 7f5e0a236effbfad29c0e3222e38661313f4ba64
-SHA256: 0a7dbc73167241bcf42aab91beed3747be8dbc879b9e537d1487741b4c40058f
+Filename: ./deb/ru.rejail.limneosos_1.1.3.deb
+Size: 36430
+MD5sum: 22d510144755ad02e7efcb505eb52f79
+SHA1: f20c4fc54214a07cff80d445211ddb0382699ef7
+SHA256: 5d6a2adb5681f08bb6078571040fab3414b1cd00e6594f1bcf2df29b01501645
 Section: Tweaks
 Priority: optional
 Homepage: https://rejail.ru/pack/limneosos
@@ -751,17 +1083,17 @@ Depiction: https://rejail.ru/depiction.php?file=limneosos
 Name: Limneosos
 
 Package: ru.rejail.lockpluspro
-Version: 1.5.9.1
+Version: 1.6
 Architecture: iphoneos-arm
 Maintainer: Nami <nami_san@outlook.com>
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.repo.xarold.com.chargemode, com.julioverne.chargemode, com.brunonfl.s8edge, com.junesiphone.lockpluspro
 Replaces: com.junesiphone.lockpluspro
-Filename: ./deb/LockPlusPro.deb
-Size: 11911208
-MD5sum: c4a613713c0c16f030eaa50e93411165
-SHA1: dc1aa4d091c5e14d98dcae42a79027c0e4638f17
-SHA256: 0215909c585a75cc5178cef1efe957b5080d668bfcf18cb1f76a73fa37346c56
+Filename: ./deb/LockPlusPro16.deb
+Size: 11911632
+MD5sum: 7860d6f5371ef98daf5fc7fae6c2dc7f
+SHA1: 47fc94eee512135dff2341f57157f9c2d0a0b585
+SHA256: e7fad14aa8ea92d788f43d840e83b619703251cb8fa4e4a1960aaacdebda8a11
 Section: Tweaks
 Homepage: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
 Description: The ultimate lock screen tweak!
@@ -769,38 +1101,69 @@ Author: JunesiPhone <junesgraphics@gmail.com>
 Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
 Name: LockPlus Pro
 
-Package: ru.rejail.nfcwriterx
-Version: 2.0-7
+Package: ws.hbang.newterm2
+Version: 2.1
 Architecture: iphoneos-arm
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Depends: mobilesubstrate, net.limneos.libbulletin, ru.rejail.limneosos
-Filename: ./deb/ru.rejail.nfcwriterx_2.0-7.deb
-Size: 495704
-MD5sum: 8336e39ec23dfd1ada312bb25c040819
-SHA1: b9564dfc55eef85993f5e524841f3d2bfa2901f1
-SHA256: 5108c1d6a3ec1d21184afdd9a2c7b9bd81146efb2e1688a6fc98b91d7b3899fc
-Section: Utilities
-Description: NFCWriter XS for iOS 11/12
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.nfcwriterx
-Icon: file:///Applcations/NFCWriter.app/icon@2x.png
-Name: NFCWriter XS
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2200
+Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.2.1-1), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm
+Replaces: ws.hbang.newterm
+Filename: ./deb/ws.hbang.newterm2_2.1_iphoneos-arm.deb
+Size: 746092
+MD5sum: 05e23fb7e8d8762853eeb9c7f3c1b5b8
+SHA1: ac286ebaa8caa79a3a179296d3608d01fada8180
+SHA256: f940d23d853fb2b4c7fdb47731d84d709d033b538c6013f8e963e46fa75a2586
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Tag: compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.io/package/ws.hbang.newterm2/
+Dev: hbang
+Icon: https://repo.chariz.io/package/ws.hbang.newterm2/icon@3x.png
+Name: NewTerm 2 (iOS 7 – 12)
+Sponsor: thebigboss.org <http://thebigboss.org>
+Support: https://hbang.ws/support/
+
+Package: ws.hbang.typestatus2
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 1856
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), com.rpetrich.rocketbootstrap (>> 1.0.6)
+Recommends: firmware (>= 9.0) | libstatusbar (>= 1:0.9.9.0-1), firmware (<< 9.1) | org.thebigboss.libstatus9 (>= 1:0.0.1.5-0)
+Conflicts: ws.hbang.typestatus
+Breaks: ws.hbang.typestatusplus (<< 1.5)
+Replaces: ws.hbang.typestatus
+Filename: ./deb/ws.hbang.typestatus2_2.4_iphoneos-arm.deb
+Size: 148862
+MD5sum: 01cf2553466c12adc0494e08bbf16e0c
+SHA1: adbb20f83e77fa2e05509b669b83c448842dc7f0
+SHA256: 1916bf78a541100934cacaa49a726b95dc0328430d6f339bde9ff1274a228540
+Section: Messaging
+Description: iMessage typing/read indicators in status bar
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.io/package/ws.hbang.typestatus2/
+Icon: https://repo.chariz.io/package/ws.hbang.typestatus2/icon@3x.png
+Name: TypeStatus 2 (iOS 7 – 12)
+Support: https://hashbang.productions/support/
 
 Package: xyz.royalapps.jellyfish
-Version: 1.0.3
+Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: Justin Proulx and AppleBetas
-Depends: mobilesubstrate
-Conflicts: applebetas.ios.tweak.time11
-Filename: ./deb/Jellyfish103.deb
-Size: 13444
-MD5sum: 7c3db9f8bbf16f9040db7f9eb0b31231
-SHA1: 10a5f035808a8185856d35cba8c23d072f2da693
-SHA256: bd2c0d9aab34095d8416418d491d7cc1f8c98b342d543fe4d810cd3c95adee06
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: applebetas.ios.tweak.time11, com.junesiphone.lockpluspro
+Filename: ./deb/Jellyfish112.deb
+Size: 100988
+MD5sum: 15ce56a2b169fcd26d139f137242c731
+SHA1: 061d06f707360db987e4fc4a25b5fbe420e3ce75
+SHA256: b0f6ff5e32e99186be2eef6dc5c9a5de2579ab24e29d57b49ff95bf031758c36
 Section: Tweaks
-Homepage: https://repo.dynastic.co/depiction/151457571662725120/
+Homepage: https://repo.dynastic.co/package/jellyfish
 Description: Modernize your Lock screen.
 Author: Justin Proulx and AppleBetas
-Depiction: https://repo.dynastic.co/depiction/151457571662725120/
+Depiction: https://repo.dynastic.co/package/jellyfish
 Name: Jellyfish
 
