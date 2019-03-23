@@ -229,6 +229,28 @@ Icon: file:///Library/PreferenceBundles/KillBackground10Preferences.bundle/KB_ic
 Name: KillBackground10 (iOS 10 to 12)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.ioshomebrew.itransmission
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: Nasser
+Depends: firmware (>= 7.0)
+Conflicts: com.andywiik.itransmission4
+Replaces: com.andywiik.itransmission4
+Filename: ./deb/iTransmission6.deb
+Size: 2932056
+MD5sum: d20abf6b54473c3bf8744ae5e9f88b83
+SHA1: 956771d2c5f5361da33bf89e93c68b81a7eb5292
+SHA256: 151ec766200575b6ca02a692311c466453fa95b4bd2b876137181ba19e8b8caf
+Section: Networking
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=itransmissionDp
+Description: Bittorrent client for iOS
+Author: Beecher Adams <ioshomebrew@outlook.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=itransmissionDp
+Dev: ioshomebrew
+Icon: file:///Applications/iTransmission.app/CydiaIcon.png
+Name: iTransmission
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.johncoates.Flex3
 Version: 3~EarlyAccess5
 Architecture: iphoneos-arm
@@ -1063,6 +1085,20 @@ Author: Dustin Howett <cydia.pl@relay.howett.net>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 Dev: dustinhowett
 Name: PreferenceLoader
+
+Package: ru.nonamedude.iTorrent
+Version: 1.6.1
+Architecture: iphoneos-arm
+Maintainer: Nasser
+Filename: ./deb/iTorrent161.deb
+Size: 16535940
+MD5sum: 4ad8f04d67aa57c5ea64d0edd9dd8adc
+SHA1: a9cfab84443cf244ed46138cb7d89ad8bd56a735
+SHA256: c5f6dd014dc030eb2af2061c010c3abbc8e3ae80c8565e9dc2fb51ca4d523ca8
+Section: Networking
+Description: Torrent client for iOS 9.3+
+Author: Vinogradov Daniil
+Name: iTorrent
 
 Package: ru.rejail.limneosos
 Version: 1.1.3
