@@ -470,16 +470,16 @@ Icon: https://repo.chariz.io/package/com.nito.ncontrol/icon@3x.png
 Name: nControl
 
 Package: com.noisyflake.goodges2
-Version: 2.0.0
+Version: 2.1.0
 Architecture: iphoneos-arm
 Maintainer: NoisyFlake
-Installed-Size: 352
+Installed-Size: 360
 Depends: mobilesubstrate, firmware (>= 11.0), org.thebigboss.libcolorpicker, applist
-Filename: ./deb/com.noisyflake.goodges2_2.0.0.deb
-Size: 37332
-MD5sum: a543be0488a2096e1c101084ca7fc73d
-SHA1: 2917d447a2b4b27e0206513b8d8c64fe8ce5858f
-SHA256: 2bec8209c2d98c72773d68422d8c4e8c1113a024fa8c7290822e59d0b0ea0b6e
+Filename: ./deb/com.noisyflake.goodges2_2.1.0.deb
+Size: 38224
+MD5sum: e62d6ca88368cf1afbd820b671f32a2a
+SHA1: 793bf722e6989aea7820d40311040812f337bd83
+SHA256: 187db895855efcae058bf797554b51dc1d8acfff629fd44e7ba757eb470f6fb5
 Section: Tweaks
 Description: Good bye badges, hello labels !
 Author: NoisyFlake
